@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2026-06-29 16:12:30 by user-->
+<display version="2.0.0">
+  <name>maintenance</name>
+  <x>10</x>
+  <y>10</y>
+  <width>450</width>
+  <height>417</height>
+  <background_color>
+    <color red="187" green="187" blue="187">
+    </color>
+  </background_color>
+  <grid_visible>false</grid_visible>
+  <grid_step_x>5</grid_step_x>
+  <widget type="label" version="2.0.0">
+    <name>text #72</name>
+    <text>Maintenance Screen Selector</text>
+    <x>8</x>
+    <y>18</y>
+    <width>394</width>
+    <height>34</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="30.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>related display #76</name>
+    <actions>
+      <action type="open_display">
+        <file>maintenance_subs/stagp_test.bob</file>
+        <target>tab</target>
+        <description>Pressure/Dewpoint</description>
+      </action>
+      <action type="open_display">
+        <file>maintenance_subs/temp_test.bob</file>
+        <target>tab</target>
+        <description>Temperature</description>
+      </action>
+      <action type="open_display">
+        <file>maintenance_subs/wd_mon.bob</file>
+        <target>tab</target>
+        <description>Process Monitor</description>
+      </action>
+      <action type="open_display">
+        <file>maintenance_subs/scramTest.bob</file>
+        <target>tab</target>
+        <description>Scramnet</description>
+      </action>
+      <action type="open_display">
+        <file>maintenance_subs/inbld.bob</file>
+        <target>tab</target>
+        <description>Inbleed Control</description>
+      </action>
+      <action type="open_display">
+        <file>maintenance_subs/hpulse.bob</file>
+        <target>tab</target>
+        <description>Heat Pulse</description>
+      </action>
+      <action type="open_display">
+        <file>maintenance_subs/fas_test.bob</file>
+        <target>tab</target>
+        <description>Fas Test (w/DAS)</description>
+      </action>
+    </actions>
+    <text></text>
+    <x>124</x>
+    <y>79</y>
+    <width>143</width>
+    <height>31</height>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

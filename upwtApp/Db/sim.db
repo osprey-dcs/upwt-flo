@@ -1,0 +1,22 @@
+record(bo, "sim:toggle") {
+    field(DESC, "Toggle simulation mode")
+    field(ZNAM, "Live Data")    # Value 0
+    field(ONAM, "Simulation")   # Value 1
+    field(VAL, "0")             # Default to Live Data on boot
+}
+
+record(calc, "sim:source_analog") {
+    field(DESC, "Generates fake sine wave data")
+    field(SCAN, "1 second")
+    # Increments an internal counter and computes a sine waves
+    field(CALC, "sin(VAL + 0.5)")
+    field(VAL, "0")
+}
+
+record(bo, "sim:source_switch){
+    field(VAL, "0")
+}
+
+record(stringout, "sim:source_string"){
+    field(VAL, "simulationstring")
+}
