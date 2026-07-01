@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2026-06-17 13:57:29 by user-->
 <display version="2.0.0">
   <name>stagp_test</name>
   <x>10</x>
@@ -12,6 +11,23 @@
   </background_color>
   <grid_visible>false</grid_visible>
   <grid_step_x>5</grid_step_x>
+  <widget type="rectangle" version="2.0.0">
+    <name>rectangle #713</name>
+    <x>682</x>
+    <y>525</y>
+    <width>450</width>
+    <height>200</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="160" green="18" blue="7">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="160" green="18" blue="7">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
   <widget type="rectangle" version="2.0.0">
     <name>rectangle #72</name>
     <x>682</x>
@@ -30,41 +46,10 @@
     <transparent>true</transparent>
   </widget>
   <widget type="textentry" version="3.0.0">
-    <name>text entry #76</name>
-    <pv_name>flo_stagp:set:opr_mode</pv_name>
-    <x>763</x>
-    <y>97</y>
-    <width>55</width>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>text #81</name>
-    <text>opr_mode</text>
-    <x>693</x>
-    <y>97</y>
-    <width>66</width>
-    <height>15</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="textentry" version="3.0.0">
     <name>text entry #83</name>
     <pv_name>flo_stagp:set:s_setp_cmd</pv_name>
-    <x>190</x>
-    <y>146</y>
+    <x>185</x>
+    <y>145</y>
     <width>65</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -81,10 +66,9 @@
   <widget type="label" version="2.0.0">
     <name>text #88</name>
     <text>Setpoint Command</text>
-    <x>21</x>
+    <x>20</x>
     <y>146</y>
-    <width>165</width>
-    <height>15</height>
+    <width>160</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -94,23 +78,22 @@
   <widget type="label" version="2.0.0">
     <name>text #92</name>
     <text>Requested Setpoint</text>
-    <x>21</x>
-    <y>126</y>
-    <width>165</width>
-    <height>17</height>
+    <x>20</x>
+    <y>125</y>
+    <width>160</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
     </font>
+    <horizontal_alignment>2</horizontal_alignment>
     <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #96</name>
     <text>Setpoint:</text>
-    <x>21</x>
-    <y>180</y>
+    <x>20</x>
+    <y>175</y>
     <width>75</width>
-    <height>17</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -120,10 +103,9 @@
   <widget type="label" version="2.0.0">
     <name>text #100</name>
     <text>Error:</text>
-    <x>21</x>
-    <y>220</y>
+    <x>20</x>
+    <y>215</y>
     <width>75</width>
-    <height>17</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -133,10 +115,9 @@
   <widget type="label" version="2.0.0">
     <name>text #104</name>
     <text>Pressure:</text>
-    <x>21</x>
-    <y>200</y>
+    <x>20</x>
+    <y>195</y>
     <width>75</width>
-    <height>17</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -146,8 +127,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #108</name>
     <pv_name>flo_stagp:set:s_req_setp</pv_name>
-    <x>190</x>
-    <y>126</y>
+    <x>185</x>
+    <y>125</y>
     <width>65</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -164,8 +145,8 @@
   <widget type="textupdate" version="2.0.0">
     <name>text update #111</name>
     <pv_name>flo_stagp:set:s_setp</pv_name>
-    <x>104</x>
-    <y>180</y>
+    <x>99</x>
+    <y>175</y>
     <width>120</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -182,8 +163,8 @@
   <widget type="textupdate" version="2.0.0">
     <name>text update #116</name>
     <pv_name>flo_stagp:set:s_setp_err</pv_name>
-    <x>104</x>
-    <y>220</y>
+    <x>99</x>
+    <y>215</y>
     <width>120</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -200,8 +181,8 @@
   <widget type="textupdate" version="2.0.0">
     <name>text update #121</name>
     <pv_name>flo_stagp:set:curr_stagp</pv_name>
-    <x>104</x>
-    <y>200</y>
+    <x>99</x>
+    <y>195</y>
     <width>120</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -218,9 +199,9 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #126</name>
     <pv_name>flo_stagp:set:d_req_setp</pv_name>
-    <x>190</x>
+    <x>175</x>
     <y>655</y>
-    <width>65</width>
+    <width>80</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -236,9 +217,9 @@
   <widget type="textupdate" version="2.0.0">
     <name>text update #131</name>
     <pv_name>flo_stagp:set:d_setp</pv_name>
-    <x>104</x>
+    <x>175</x>
     <y>705</y>
-    <width>120</width>
+    <width>80</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -254,9 +235,9 @@
   <widget type="textupdate" version="2.0.0">
     <name>text update #136</name>
     <pv_name>flo_stagp:set:d_setp_err</pv_name>
-    <x>104</x>
+    <x>175</x>
     <y>745</y>
-    <width>120</width>
+    <width>80</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -272,9 +253,9 @@
   <widget type="textupdate" version="2.0.0">
     <name>text update #141</name>
     <pv_name>flo_stagp:set:curr_dewpt</pv_name>
-    <x>104</x>
+    <x>175</x>
     <y>725</y>
-    <width>120</width>
+    <width>80</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -290,10 +271,10 @@
   <widget type="label" version="2.0.0">
     <name>text #146</name>
     <text>Stagnation Pressure</text>
-    <x>20</x>
-    <y>72</y>
-    <width>640</width>
-    <height>30</height>
+    <x>29</x>
+    <y>62</y>
+    <width>631</width>
+    <height>40</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="30.0">
       </font>
@@ -308,9 +289,9 @@
     <name>text #150</name>
     <text>Dewpoint</text>
     <x>20</x>
-    <y>600</y>
+    <y>595</y>
     <width>640</width>
-    <height>30</height>
+    <height>40</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="30.0">
       </font>
@@ -342,10 +323,9 @@
   <widget type="label" version="2.0.0">
     <name>text #159</name>
     <text>wi06</text>
-    <x>179</x>
-    <y>245</y>
+    <x>185</x>
+    <y>240</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -355,7 +335,7 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #163</name>
     <pv_name>flo_PLC:ai07</pv_name>
-    <x>126</x>
+    <x>125</x>
     <y>260</y>
     <width>55</width>
     <font>
@@ -373,10 +353,9 @@
   <widget type="label" version="2.0.0">
     <name>text #168</name>
     <text>wi07</text>
-    <x>120</x>
-    <y>243</y>
+    <x>125</x>
+    <y>240</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -387,7 +366,7 @@
     <name>text entry #172</name>
     <pv_name>flo_PLC:ai08</pv_name>
     <x>185</x>
-    <y>298</y>
+    <y>305</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -405,9 +384,8 @@
     <name>text #177</name>
     <text>wi08</text>
     <x>185</x>
-    <y>284</y>
+    <y>285</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -417,8 +395,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #181</name>
     <pv_name>flo_PLC:ai09</pv_name>
-    <x>126</x>
-    <y>298</y>
+    <x>125</x>
+    <y>305</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -435,10 +413,9 @@
   <widget type="label" version="2.0.0">
     <name>text #186</name>
     <text>wi09</text>
-    <x>126</x>
-    <y>283</y>
+    <x>125</x>
+    <y>285</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -448,9 +425,9 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #190</name>
     <pv_name>flo_stagp:set:ts1_dewpt</pv_name>
-    <x>126</x>
-    <y>788</y>
-    <width>55</width>
+    <x>175</x>
+    <y>790</y>
+    <width>80</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -466,9 +443,9 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #195</name>
     <pv_name>flo_stagp:set:ts2_dewpt</pv_name>
-    <x>126</x>
+    <x>175</x>
     <y>810</y>
-    <width>55</width>
+    <width>80</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -480,402 +457,12 @@
     <format>1</format>
     <show_units>false</show_units>
     <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="textentry" version="3.0.0">
-    <name>text entry #200</name>
-    <pv_name>flo_stagp:set:ob_req_pos</pv_name>
-    <x>776</x>
-    <y>186</y>
-    <width>55</width>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>text #205</name>
-    <text>Out-bleed</text>
-    <x>704</x>
-    <y>186</y>
-    <width>66</width>
-    <height>15</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="textentry" version="3.0.0">
-    <name>text entry #209</name>
-    <pv_name>flo_stagp:set:ib_req_pos</pv_name>
-    <x>776</x>
-    <y>206</y>
-    <width>55</width>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>text #214</name>
-    <text>In-bleed</text>
-    <x>704</x>
-    <y>206</y>
-    <width>66</width>
-    <height>15</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>text #218</name>
-    <text>Reqested</text>
-    <x>776</x>
-    <y>166</y>
-    <width>55</width>
-    <height>15</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>text #222</name>
-    <text>Commanded</text>
-    <x>850</x>
-    <y>166</y>
-    <width>75</width>
-    <height>15</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>text update #226</name>
-    <pv_name>floctl:ao:outbleed_vlv_pos</pv_name>
-    <x>850</x>
-    <y>186</y>
-    <width>75</width>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>text update #231</name>
-    <pv_name>floctl:ao:inbleed_vlv_pos</pv_name>
-    <x>850</x>
-    <y>206</y>
-    <width>75</width>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>text #236</name>
-    <text>sv101</text>
-    <x>996</x>
-    <y>187</y>
-    <width>43</width>
-    <height>15</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>text #240</name>
-    <text>sv102</text>
-    <x>996</x>
-    <y>207</y>
-    <width>43</width>
-    <height>15</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>text #244</name>
-    <text>sv103</text>
-    <x>996</x>
-    <y>227</y>
-    <width>43</width>
-    <height>15</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>text #248</name>
-    <text>sv104</text>
-    <x>996</x>
-    <y>247</y>
-    <width>43</width>
-    <height>15</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>text update #252</name>
-    <pv_name>flo_PLC:wo01:sv101_open</pv_name>
-    <x>1083</x>
-    <y>187</y>
-    <width>40</width>
-    <height>19</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>text update #257</name>
-    <pv_name>flo_PLC:wo01:sv102_open</pv_name>
-    <x>1083</x>
-    <y>207</y>
-    <width>40</width>
-    <height>19</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>text update #262</name>
-    <pv_name>flo_PLC:wo01:sv103_open</pv_name>
-    <x>1083</x>
-    <y>227</y>
-    <width>40</width>
-    <height>19</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>text update #267</name>
-    <pv_name>flo_PLC:wo01:sv104_open</pv_name>
-    <x>1083</x>
-    <y>247</y>
-    <width>40</width>
-    <height>19</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="textentry" version="3.0.0">
-    <name>text entry #272</name>
-    <pv_name>flo_stagp:set:req_sv101</pv_name>
-    <x>1047</x>
-    <y>187</y>
-    <width>29</width>
-    <height>19</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="textentry" version="3.0.0">
-    <name>text entry #277</name>
-    <pv_name>flo_stagp:set:req_sv102</pv_name>
-    <x>1047</x>
-    <y>207</y>
-    <width>29</width>
-    <height>19</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="textentry" version="3.0.0">
-    <name>text entry #282</name>
-    <pv_name>flo_stagp:set:req_sv103</pv_name>
-    <x>1047</x>
-    <y>227</y>
-    <width>29</width>
-    <height>19</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="textentry" version="3.0.0">
-    <name>text entry #287</name>
-    <pv_name>flo_stagp:set:req_sv104</pv_name>
-    <x>1047</x>
-    <y>247</y>
-    <width>29</width>
-    <height>19</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="textentry" version="3.0.0">
-    <name>text entry #292</name>
-    <pv_name>flo_PLC:tun_cfg</pv_name>
-    <x>924</x>
-    <y>97</y>
-    <width>55</width>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>text #297</name>
-    <text>tunnel_mode</text>
-    <x>839</x>
-    <y>97</y>
-    <width>66</width>
-    <height>15</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="textentry" version="3.0.0">
-    <name>text entry #301</name>
-    <pv_name>flo_stagp:cnfg:d_enable</pv_name>
-    <x>1064</x>
-    <y>97</y>
-    <width>55</width>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>text #306</name>
-    <text>d_enable</text>
-    <x>1003</x>
-    <y>97</y>
-    <width>66</width>
-    <height>15</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <auto_size>true</auto_size>
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #310</name>
     <pv_name>flo_stagp:cnfg:prop_inbld</pv_name>
-    <x>845</x>
-    <y>328</y>
+    <x>833</x>
+    <y>330</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -892,10 +479,9 @@
   <widget type="label" version="2.0.0">
     <name>text #315</name>
     <text>prop</text>
-    <x>707</x>
-    <y>451</y>
-    <width>42</width>
-    <height>15</height>
+    <x>705</x>
+    <y>450</y>
+    <width>35</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -905,8 +491,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #319</name>
     <pv_name>flo_stagp:cnfg:updb_inbld</pv_name>
-    <x>845</x>
-    <y>368</y>
+    <x>833</x>
+    <y>370</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -923,8 +509,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #324</name>
     <pv_name>flo_stagp:cnfg:lowdb_inbld</pv_name>
-    <x>845</x>
-    <y>388</y>
+    <x>833</x>
+    <y>390</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -941,8 +527,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #329</name>
     <pv_name>flo_stagp:cnfg:prop_v5</pv_name>
-    <x>754</x>
-    <y>448</y>
+    <x>755</x>
+    <y>450</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -959,17 +545,16 @@
   <widget type="label" version="2.0.0">
     <name>text #334</name>
     <text>Dewpoint Inbleed Ramp</text>
-    <x>910</x>
-    <y>328</y>
+    <x>898</x>
+    <y>330</y>
     <width>150</width>
-    <height>14</height>
     <horizontal_alignment>2</horizontal_alignment>
   </widget>
   <widget type="textentry" version="3.0.0">
     <name>text entry #338</name>
     <pv_name>flo_stagp:cnfg:int_inbld</pv_name>
-    <x>845</x>
-    <y>348</y>
+    <x>833</x>
+    <y>350</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -986,10 +571,9 @@
   <widget type="label" version="2.0.0">
     <name>text #343</name>
     <text>int</text>
-    <x>707</x>
-    <y>472</y>
-    <width>42</width>
-    <height>15</height>
+    <x>705</x>
+    <y>470</y>
+    <width>35</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -999,10 +583,9 @@
   <widget type="label" version="2.0.0">
     <name>text #347</name>
     <text>deriv</text>
-    <x>707</x>
-    <y>493</y>
-    <width>42</width>
-    <height>15</height>
+    <x>705</x>
+    <y>490</y>
+    <width>35</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1012,8 +595,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #351</name>
     <pv_name>flo_stagp:cnfg:int_v5</pv_name>
-    <x>754</x>
-    <y>469</y>
+    <x>755</x>
+    <y>470</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -1030,7 +613,7 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #356</name>
     <pv_name>flo_stagp:cnfg:deriv_v5</pv_name>
-    <x>754</x>
+    <x>755</x>
     <y>490</y>
     <width>55</width>
     <font>
@@ -1048,8 +631,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #361</name>
     <pv_name>flo_stagp:cnfg:prop_dewpt</pv_name>
-    <x>1065</x>
-    <y>328</y>
+    <x>1053</x>
+    <y>330</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -1066,8 +649,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #366</name>
     <pv_name>flo_stagp:cnfg:updb_dewpt</pv_name>
-    <x>1065</x>
-    <y>368</y>
+    <x>1053</x>
+    <y>370</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -1084,8 +667,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #371</name>
     <pv_name>flo_stagp:cnfg:lowdb_dewpt</pv_name>
-    <x>1065</x>
-    <y>388</y>
+    <x>1053</x>
+    <y>390</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -1102,9 +685,9 @@
   <widget type="label" version="2.0.0">
     <name>text #376</name>
     <text>V5</text>
-    <x>754</x>
+    <x>755</x>
     <y>430</y>
-    <width>54</width>
+    <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1114,8 +697,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #380</name>
     <pv_name>flo_stagp:cnfg:int_dewpt</pv_name>
-    <x>1065</x>
-    <y>348</y>
+    <x>1053</x>
+    <y>350</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -1145,9 +728,9 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #389</name>
     <pv_name>flo_stagp:set:d_setp_cmd</pv_name>
-    <x>190</x>
+    <x>175</x>
     <y>675</y>
-    <width>65</width>
+    <width>80</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1163,9 +746,9 @@
   <widget type="label" version="2.0.0">
     <name>text #394</name>
     <text>Test Section 1</text>
-    <x>20</x>
+    <x>10</x>
     <y>260</y>
-    <height>15</height>
+    <width>110</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1175,59 +758,25 @@
   <widget type="label" version="2.0.0">
     <name>text #398</name>
     <text>Test Section 2</text>
-    <x>20</x>
-    <y>298</y>
-    <height>15</height>
+    <x>10</x>
+    <y>305</y>
+    <width>110</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
     </font>
     <horizontal_alignment>2</horizontal_alignment>
   </widget>
-  <widget type="label" version="2.0.0">
-    <name>text #402</name>
-    <text>Manual Control</text>
-    <x>702</x>
-    <y>140</y>
-    <width>101</width>
-    <height>22</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color red="97" green="10" blue="117">
-      </color>
-    </foreground_color>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>text #406</name>
-    <text>Control Mode</text>
-    <x>850</x>
-    <y>66</y>
-    <width>101</width>
-    <height>22</height>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color red="225" green="144" blue="21">
-      </color>
-    </foreground_color>
-    <auto_size>true</auto_size>
-  </widget>
   <widget type="polyline" version="2.0.0">
     <name>polyline #410</name>
-    <x>20</x>
+    <x>10</x>
     <y>50</y>
-    <width>1100</width>
-    <height>0</height>
+    <width>1120</width>
+    <height>1</height>
     <points>
       <point x="0.0" y="0.0">
       </point>
-      <point x="1100.0" y="0.0">
+      <point x="1120.0" y="0.0">
       </point>
     </points>
   </widget>
@@ -1236,8 +785,8 @@
     <text>Automatic Control</text>
     <x>29</x>
     <y>62</y>
-    <width>180</width>
-    <height>22</height>
+    <width>128</width>
+    <height>19</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1251,10 +800,9 @@
   <widget type="label" version="2.0.0">
     <name>text #419</name>
     <text>Requested Setpoint</text>
-    <x>21</x>
+    <x>5</x>
     <y>655</y>
     <width>165</width>
-    <height>17</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1264,10 +812,9 @@
   <widget type="label" version="2.0.0">
     <name>text #423</name>
     <text>Setpoint:</text>
-    <x>21</x>
+    <x>5</x>
     <y>705</y>
-    <width>75</width>
-    <height>17</height>
+    <width>165</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1277,10 +824,9 @@
   <widget type="label" version="2.0.0">
     <name>text #427</name>
     <text>Error:</text>
-    <x>21</x>
+    <x>5</x>
     <y>745</y>
-    <width>75</width>
-    <height>17</height>
+    <width>165</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1290,10 +836,9 @@
   <widget type="label" version="2.0.0">
     <name>text #431</name>
     <text>Dewpoint:</text>
-    <x>21</x>
+    <x>5</x>
     <y>725</y>
-    <width>75</width>
-    <height>17</height>
+    <width>165</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1303,9 +848,9 @@
   <widget type="label" version="2.0.0">
     <name>text #435</name>
     <text>Test Section 1</text>
-    <x>20</x>
-    <y>788</y>
-    <height>15</height>
+    <x>5</x>
+    <y>790</y>
+    <width>165</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1315,9 +860,9 @@
   <widget type="label" version="2.0.0">
     <name>text #439</name>
     <text>Test Section 2</text>
-    <x>20</x>
+    <x>5</x>
     <y>810</y>
-    <height>15</height>
+    <width>165</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1611,10 +1156,9 @@
   <widget type="label" version="2.0.0">
     <name>text #469</name>
     <text>Setpoint Command</text>
-    <x>21</x>
+    <x>5</x>
     <y>675</y>
     <width>165</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1641,8 +1185,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #477</name>
     <pv_name>flo_stagp:cnfg:prop_v8</pv_name>
-    <x>813</x>
-    <y>448</y>
+    <x>815</x>
+    <y>450</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -1659,8 +1203,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #482</name>
     <pv_name>flo_stagp:cnfg:int_v8</pv_name>
-    <x>813</x>
-    <y>469</y>
+    <x>815</x>
+    <y>470</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -1677,7 +1221,7 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #487</name>
     <pv_name>flo_stagp:cnfg:deriv_v8</pv_name>
-    <x>813</x>
+    <x>815</x>
     <y>490</y>
     <width>55</width>
     <font>
@@ -1695,9 +1239,9 @@
   <widget type="label" version="2.0.0">
     <name>text #492</name>
     <text>V8</text>
-    <x>814</x>
+    <x>815</x>
     <y>430</y>
-    <width>54</width>
+    <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1707,8 +1251,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #496</name>
     <pv_name>flo_stagp:cnfg:prop_v14</pv_name>
-    <x>872</x>
-    <y>448</y>
+    <x>870</x>
+    <y>450</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -1725,8 +1269,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #501</name>
     <pv_name>flo_stagp:cnfg:int_v14</pv_name>
-    <x>872</x>
-    <y>469</y>
+    <x>870</x>
+    <y>470</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -1743,7 +1287,7 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #506</name>
     <pv_name>flo_stagp:cnfg:deriv_v14</pv_name>
-    <x>872</x>
+    <x>870</x>
     <y>490</y>
     <width>55</width>
     <font>
@@ -1761,7 +1305,7 @@
   <widget type="label" version="2.0.0">
     <name>text #511</name>
     <text>V14</text>
-    <x>873</x>
+    <x>870</x>
     <y>430</y>
     <width>54</width>
     <font>
@@ -1773,8 +1317,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #515</name>
     <pv_name>flo_stagp:cnfg:prop_v13</pv_name>
-    <x>931</x>
-    <y>448</y>
+    <x>930</x>
+    <y>450</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -1791,8 +1335,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #520</name>
     <pv_name>flo_stagp:cnfg:int_v13</pv_name>
-    <x>931</x>
-    <y>469</y>
+    <x>930</x>
+    <y>470</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -1809,7 +1353,7 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #525</name>
     <pv_name>flo_stagp:cnfg:deriv_v13</pv_name>
-    <x>931</x>
+    <x>930</x>
     <y>490</y>
     <width>55</width>
     <font>
@@ -1827,9 +1371,9 @@
   <widget type="label" version="2.0.0">
     <name>text #530</name>
     <text>V13</text>
-    <x>932</x>
+    <x>930</x>
     <y>430</y>
-    <width>54</width>
+    <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1839,64 +1383,57 @@
   <widget type="label" version="2.0.0">
     <name>text #534</name>
     <text>Inbleed Trip Level</text>
-    <x>910</x>
-    <y>348</y>
+    <x>898</x>
+    <y>350</y>
     <width>150</width>
-    <height>14</height>
     <horizontal_alignment>2</horizontal_alignment>
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #538</name>
     <text>Dewpoint Upper Deadband</text>
-    <x>910</x>
-    <y>368</y>
+    <x>898</x>
+    <y>370</y>
     <width>150</width>
-    <height>14</height>
     <horizontal_alignment>2</horizontal_alignment>
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #542</name>
     <text>Dewpoint Lower Deadband</text>
-    <x>910</x>
-    <y>388</y>
+    <x>898</x>
+    <y>390</y>
     <width>150</width>
-    <height>14</height>
     <horizontal_alignment>2</horizontal_alignment>
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #546</name>
     <text>Pressure Inbleed Ramp</text>
-    <x>695</x>
-    <y>328</y>
-    <width>140</width>
-    <height>14</height>
+    <x>708</x>
+    <y>330</y>
+    <width>115</width>
     <horizontal_alignment>2</horizontal_alignment>
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #550</name>
     <text>Minimum Inbleed Flow</text>
-    <x>695</x>
-    <y>348</y>
-    <width>140</width>
-    <height>14</height>
+    <x>708</x>
+    <y>350</y>
+    <width>115</width>
     <horizontal_alignment>2</horizontal_alignment>
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #554</name>
     <text>Press. Upper Deadband</text>
-    <x>695</x>
-    <y>368</y>
-    <width>140</width>
-    <height>14</height>
+    <x>708</x>
+    <y>370</y>
+    <width>115</width>
     <horizontal_alignment>2</horizontal_alignment>
   </widget>
   <widget type="label" version="2.0.0">
     <name>text #558</name>
     <text>Press. Lower Deadband</text>
-    <x>695</x>
-    <y>388</y>
-    <width>140</width>
-    <height>14</height>
+    <x>708</x>
+    <y>390</y>
+    <width>115</width>
     <horizontal_alignment>2</horizontal_alignment>
   </widget>
   <widget type="bool_button" version="2.0.0">
@@ -1926,10 +1463,9 @@
   <widget type="label" version="2.0.0">
     <name>text #567</name>
     <text>HOPR</text>
-    <x>688</x>
-    <y>769</y>
-    <width>42</width>
-    <height>15</height>
+    <x>690</x>
+    <y>765</y>
+    <width>50</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1939,10 +1475,9 @@
   <widget type="label" version="2.0.0">
     <name>text #571</name>
     <text>LOPR</text>
-    <x>688</x>
-    <y>791</y>
-    <width>42</width>
-    <height>15</height>
+    <x>690</x>
+    <y>790</y>
+    <width>45</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -1952,7 +1487,7 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #575</name>
     <pv_name>flo_stagp:set:curr_stagp.HOPR</pv_name>
-    <x>734</x>
+    <x>735</x>
     <y>765</y>
     <width>55</width>
     <font>
@@ -1970,8 +1505,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #580</name>
     <pv_name>flo_stagp:set:curr_stagp.LOPR</pv_name>
-    <x>734</x>
-    <y>787</y>
+    <x>735</x>
+    <y>790</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -1988,7 +1523,7 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #585</name>
     <pv_name>flo_stagp:set:s_setp.HOPR</pv_name>
-    <x>794</x>
+    <x>795</x>
     <y>765</y>
     <width>55</width>
     <font>
@@ -2006,8 +1541,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #590</name>
     <pv_name>flo_stagp:set:s_setp.LOPR</pv_name>
-    <x>794</x>
-    <y>787</y>
+    <x>795</x>
+    <y>790</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -2024,7 +1559,7 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #595</name>
     <pv_name>flo_stagp:set:curr_dewpt.HOPR</pv_name>
-    <x>853</x>
+    <x>855</x>
     <y>765</y>
     <width>55</width>
     <font>
@@ -2042,8 +1577,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #600</name>
     <pv_name>flo_stagp:set:curr_dewpt.LOPR</pv_name>
-    <x>853</x>
-    <y>787</y>
+    <x>855</x>
+    <y>790</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -2060,7 +1595,7 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #605</name>
     <pv_name>flo_stagp:set:d_setp.HOPR</pv_name>
-    <x>912</x>
+    <x>915</x>
     <y>765</y>
     <width>55</width>
     <font>
@@ -2078,8 +1613,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #610</name>
     <pv_name>flo_stagp:set:d_setp.LOPR</pv_name>
-    <x>912</x>
-    <y>787</y>
+    <x>915</x>
+    <y>790</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -2096,9 +1631,9 @@
   <widget type="label" version="2.0.0">
     <name>text #615</name>
     <text>stagp</text>
-    <x>736</x>
+    <x>735</x>
     <y>739</y>
-    <width>54</width>
+    <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2108,9 +1643,9 @@
   <widget type="label" version="2.0.0">
     <name>text #619</name>
     <text>s_setp</text>
-    <x>796</x>
+    <x>795</x>
     <y>739</y>
-    <width>54</width>
+    <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2121,8 +1656,8 @@
     <name>text #623</name>
     <text>dewpt</text>
     <x>855</x>
-    <y>739</y>
-    <width>54</width>
+    <y>740</y>
+    <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2132,7 +1667,7 @@
   <widget type="label" version="2.0.0">
     <name>text #627</name>
     <text>d_setp</text>
-    <x>914</x>
+    <x>915</x>
     <y>739</y>
     <width>54</width>
     <font>
@@ -2144,8 +1679,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #631</name>
     <pv_name>flo_stagp:cnfg:prop_IV</pv_name>
-    <x>1049</x>
-    <y>448</y>
+    <x>1050</x>
+    <y>450</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -2163,7 +1698,7 @@
     <name>text entry #636</name>
     <pv_name>flo_stagp:cnfg:updb_IV</pv_name>
     <x>1020</x>
-    <y>542</y>
+    <y>540</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -2180,7 +1715,7 @@
     <name>text entry #641</name>
     <pv_name>flo_stagp:cnfg:lowdb_IV</pv_name>
     <x>1020</x>
-    <y>562</y>
+    <y>560</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -2197,8 +1732,8 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #646</name>
     <pv_name>flo_stagp:cnfg:int_IV</pv_name>
-    <x>1049</x>
-    <y>469</y>
+    <x>1050</x>
+    <y>470</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -2215,7 +1750,7 @@
   <widget type="textentry" version="3.0.0">
     <name>text entry #651</name>
     <pv_name>flo_stagp:cnfg:deriv_IV</pv_name>
-    <x>1049</x>
+    <x>1050</x>
     <y>490</y>
     <width>55</width>
     <font>
@@ -2233,9 +1768,9 @@
   <widget type="label" version="2.0.0">
     <name>text #656</name>
     <text>V13 IV</text>
-    <x>1051</x>
+    <x>1050</x>
     <y>430</y>
-    <width>54</width>
+    <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2246,7 +1781,7 @@
     <name>text entry #660</name>
     <pv_name>flo_stagp:cnfg:prop_III</pv_name>
     <x>990</x>
-    <y>448</y>
+    <y>450</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -2264,7 +1799,7 @@
     <name>text entry #665</name>
     <pv_name>flo_stagp:cnfg:int_III</pv_name>
     <x>990</x>
-    <y>469</y>
+    <y>470</y>
     <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
@@ -2299,60 +1834,9 @@
   <widget type="label" version="2.0.0">
     <name>text #675</name>
     <text>V13_III</text>
-    <x>988</x>
+    <x>990</x>
     <y>430</y>
-    <width>54</width>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <horizontal_alignment>1</horizontal_alignment>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>text update #679</name>
-    <pv_name>flo_stagp:set:ob_flow</pv_name>
-    <x>935</x>
-    <y>186</y>
-    <width>45</width>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <horizontal_alignment>2</horizontal_alignment>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>text update #684</name>
-    <pv_name>flo_stagp:set:ib_flow</pv_name>
-    <x>935</x>
-    <y>206</y>
-    <width>45</width>
-    <font>
-      <font family="Liberation Sans" style="REGULAR" size="16.0">
-      </font>
-    </font>
-    <background_color>
-      <color red="187" green="187" blue="187">
-      </color>
-    </background_color>
-    <format>1</format>
-    <show_units>false</show_units>
-    <horizontal_alignment>2</horizontal_alignment>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>text #689</name>
-    <text>Flow</text>
-    <x>935</x>
-    <y>166</y>
-    <width>45</width>
-    <height>15</height>
+    <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2380,8 +1864,8 @@
     <text></text>
     <x>834</x>
     <y>33</y>
-    <width>207</width>
-    <height>64</height>
+    <width>0</width>
+    <height>34</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="30.0">
       </font>
@@ -2393,8 +1877,8 @@
     <text></text>
     <x>788</x>
     <y>32</y>
-    <width>193</width>
-    <height>64</height>
+    <width>0</width>
+    <height>34</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="30.0">
       </font>
@@ -2405,8 +1889,8 @@
     <name>text #705</name>
     <text>Index</text>
     <x>970</x>
-    <y>542</y>
-    <width>50</width>
+    <y>540</y>
+    <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2417,38 +1901,19 @@
     <name>text #709</name>
     <text>Value</text>
     <x>970</x>
-    <y>562</y>
-    <width>50</width>
+    <y>560</y>
+    <width>55</width>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
     </font>
     <auto_size>true</auto_size>
   </widget>
-  <widget type="rectangle" version="2.0.0">
-    <name>rectangle #713</name>
-    <x>682</x>
-    <y>525</y>
-    <width>450</width>
-    <height>200</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="160" green="18" blue="7">
-      </color>
-    </line_color>
-    <background_color>
-      <color red="160" green="18" blue="7">
-      </color>
-    </background_color>
-    <transparent>true</transparent>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>text #717</name>
     <text>dP/dt:</text>
-    <x>720</x>
+    <x>710</x>
     <y>595</y>
-    <width>90</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2458,10 +1923,8 @@
   <widget type="label" version="2.0.0">
     <name>text #721</name>
     <text>Filtered Pressure:</text>
-    <x>720</x>
+    <x>710</x>
     <y>615</y>
-    <width>90</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2471,10 +1934,8 @@
   <widget type="label" version="2.0.0">
     <name>text #725</name>
     <text>Set Point Clock:</text>
-    <x>720</x>
+    <x>710</x>
     <y>635</y>
-    <width>90</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2484,10 +1945,8 @@
   <widget type="label" version="2.0.0">
     <name>text #729</name>
     <text>Watchdog:</text>
-    <x>720</x>
+    <x>710</x>
     <y>655</y>
-    <width>90</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2497,10 +1956,8 @@
   <widget type="label" version="2.0.0">
     <name>text #733</name>
     <text>Outbleed Flow:</text>
-    <x>720</x>
+    <x>710</x>
     <y>675</y>
-    <width>90</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2510,10 +1967,8 @@
   <widget type="label" version="2.0.0">
     <name>text #737</name>
     <text>Inbleed Flow:</text>
-    <x>720</x>
+    <x>710</x>
     <y>695</y>
-    <width>90</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2526,7 +1981,6 @@
     <x>920</x>
     <y>595</y>
     <width>90</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2539,7 +1993,6 @@
     <x>920</x>
     <y>615</y>
     <width>90</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2552,7 +2005,6 @@
     <x>920</x>
     <y>635</y>
     <width>90</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2565,7 +2017,6 @@
     <x>920</x>
     <y>655</y>
     <width>90</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2578,7 +2029,6 @@
     <x>920</x>
     <y>675</y>
     <width>90</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2776,8 +2226,8 @@
     <text>Inbleed</text>
     <x>77</x>
     <y>868</y>
-    <width>55</width>
-    <height>12</height>
+    <width>40</width>
+    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="12.0">
       </font>
@@ -2802,8 +2252,8 @@
     <text>Outbleed</text>
     <x>169</x>
     <y>868</y>
-    <width>55</width>
-    <height>12</height>
+    <width>49</width>
+    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="12.0">
       </font>
@@ -2828,8 +2278,8 @@
     <text>Current Pressure or Dewpoint</text>
     <x>262</x>
     <y>868</y>
-    <width>150</width>
-    <height>12</height>
+    <width>159</width>
+    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="12.0">
       </font>
@@ -2854,8 +2304,8 @@
     <text>Pressure or Dewpoint Setpoint</text>
     <x>482</x>
     <y>868</y>
-    <width>55</width>
-    <height>12</height>
+    <width>163</width>
+    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="12.0">
       </font>
@@ -2868,7 +2318,6 @@
     <x>820</x>
     <y>595</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2887,7 +2336,6 @@
     <x>820</x>
     <y>615</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2906,7 +2354,6 @@
     <x>820</x>
     <y>635</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2925,7 +2372,6 @@
     <x>820</x>
     <y>655</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2944,7 +2390,6 @@
     <x>920</x>
     <y>695</y>
     <width>90</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2957,7 +2402,6 @@
     <x>820</x>
     <y>675</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2976,7 +2420,6 @@
     <x>820</x>
     <y>695</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -2995,7 +2438,6 @@
     <x>1020</x>
     <y>595</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -3014,7 +2456,6 @@
     <x>1020</x>
     <y>615</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -3033,7 +2474,6 @@
     <x>1020</x>
     <y>635</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -3052,7 +2492,6 @@
     <x>1020</x>
     <y>655</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -3071,7 +2510,6 @@
     <x>1020</x>
     <y>675</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -3090,7 +2528,6 @@
     <x>1020</x>
     <y>695</y>
     <width>55</width>
-    <height>15</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="16.0">
       </font>
@@ -3119,5 +2556,492 @@
       </color>
     </background_color>
     <transparent>true</transparent>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #76</name>
+    <pv_name>flo_stagp:set:opr_mode</pv_name>
+    <x>755</x>
+    <y>95</y>
+    <width>55</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #81</name>
+    <text>opr_mode</text>
+    <x>690</x>
+    <y>95</y>
+    <width>65</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #292</name>
+    <pv_name>flo_PLC:tun_cfg</pv_name>
+    <x>924</x>
+    <y>95</y>
+    <width>55</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #297</name>
+    <text>tunnel_mode</text>
+    <x>823</x>
+    <y>95</y>
+    <width>90</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #301</name>
+    <pv_name>flo_stagp:cnfg:d_enable</pv_name>
+    <x>1065</x>
+    <y>95</y>
+    <width>55</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #306</name>
+    <text>d_enable</text>
+    <x>990</x>
+    <y>95</y>
+    <width>90</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #406</name>
+    <text>Control Mode</text>
+    <x>850</x>
+    <y>66</y>
+    <width>97</width>
+    <height>19</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="225" green="144" blue="21">
+      </color>
+    </foreground_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #200</name>
+    <pv_name>flo_stagp:set:ob_req_pos</pv_name>
+    <x>775</x>
+    <y>185</y>
+    <width>80</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #205</name>
+    <text>Out-bleed</text>
+    <x>700</x>
+    <y>185</y>
+    <width>75</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #209</name>
+    <pv_name>flo_stagp:set:ib_req_pos</pv_name>
+    <x>775</x>
+    <y>205</y>
+    <width>80</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #214</name>
+    <text>In-bleed</text>
+    <x>700</x>
+    <y>205</y>
+    <width>75</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <horizontal_alignment>2</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #218</name>
+    <text>Requested</text>
+    <x>775</x>
+    <y>165</y>
+    <width>80</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #222</name>
+    <text>Commanded</text>
+    <x>855</x>
+    <y>165</y>
+    <width>80</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #226</name>
+    <pv_name>floctl:ao:outbleed_vlv_pos</pv_name>
+    <x>855</x>
+    <y>185</y>
+    <width>80</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #231</name>
+    <pv_name>floctl:ao:inbleed_vlv_pos</pv_name>
+    <x>855</x>
+    <y>205</y>
+    <width>80</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #236</name>
+    <text>sv101</text>
+    <x>1000</x>
+    <y>185</y>
+    <width>45</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #240</name>
+    <text>sv102</text>
+    <x>1000</x>
+    <y>205</y>
+    <width>45</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #244</name>
+    <text>sv103</text>
+    <x>1000</x>
+    <y>225</y>
+    <width>45</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #248</name>
+    <text>sv104</text>
+    <x>1000</x>
+    <y>245</y>
+    <width>45</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #252</name>
+    <pv_name>flo_PLC:wo01:sv101_open</pv_name>
+    <x>1085</x>
+    <y>185</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #257</name>
+    <pv_name>flo_PLC:wo01:sv102_open</pv_name>
+    <x>1085</x>
+    <y>205</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #262</name>
+    <pv_name>flo_PLC:wo01:sv103_open</pv_name>
+    <x>1085</x>
+    <y>225</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #267</name>
+    <pv_name>flo_PLC:wo01:sv104_open</pv_name>
+    <x>1085</x>
+    <y>245</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #272</name>
+    <pv_name>flo_stagp:set:req_sv101</pv_name>
+    <x>1050</x>
+    <y>185</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #277</name>
+    <pv_name>flo_stagp:set:req_sv102</pv_name>
+    <x>1050</x>
+    <y>205</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #282</name>
+    <pv_name>flo_stagp:set:req_sv103</pv_name>
+    <x>1050</x>
+    <y>225</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>text entry #287</name>
+    <pv_name>flo_stagp:set:req_sv104</pv_name>
+    <x>1050</x>
+    <y>245</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #402</name>
+    <text>Manual Control</text>
+    <x>850</x>
+    <y>140</y>
+    <width>110</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="97" green="10" blue="117">
+      </color>
+    </foreground_color>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #679</name>
+    <pv_name>flo_stagp:set:ob_flow</pv_name>
+    <x>935</x>
+    <y>185</y>
+    <width>45</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <horizontal_alignment>2</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>text update #684</name>
+    <pv_name>flo_stagp:set:ib_flow</pv_name>
+    <x>935</x>
+    <y>205</y>
+    <width>45</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="187" green="187" blue="187">
+      </color>
+    </background_color>
+    <format>1</format>
+    <show_units>false</show_units>
+    <horizontal_alignment>2</horizontal_alignment>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>text #689</name>
+    <text>Flow</text>
+    <x>935</x>
+    <y>165</y>
+    <width>45</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
   </widget>
 </display>
