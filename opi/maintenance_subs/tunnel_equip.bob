@@ -17,8 +17,8 @@
     <text>ALARMS</text>
     <x>90</x>
     <y>10</y>
-    <width>98</width>
-    <height>30</height>
+    <width>75</width>
+    <height>21</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="18.0">
       </font>
@@ -54,8 +54,8 @@ Shut down</text>
     <text>PUMP STATUS</text>
     <x>60</x>
     <y>92</y>
-    <width>168</width>
-    <height>22</height>
+    <width>129</width>
+    <height>21</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="18.0">
       </font>
@@ -89,8 +89,8 @@ Vacum Pump</text>
     <text>HYDRAULICS</text>
     <x>80</x>
     <y>176</y>
-    <width>128</width>
-    <height>30</height>
+    <width>117</width>
+    <height>21</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="18.0">
       </font>
@@ -101,23 +101,11 @@ Vacum Pump</text>
   </widget>
   <widget type="slide_button" version="2.0.0">
     <name>Slide Button</name>
-    <pv_name>hydro_energ_mode</pv_name>
+    <pv_name>flo_PLC:wo02:hyd_on</pv_name>
     <label>Energized</label>
     <x>80</x>
     <y>200</y>
     <width>158</width>
-  </widget>
-  <widget type="radio" version="2.0.0">
-    <name>Radio Button</name>
-    <pv_name>gms_radio_var</pv_name>
-    <x>110</x>
-    <y>240</y>
-    <width>68</width>
-    <height>50</height>
-    <items>
-      <item>Start</item>
-      <item>Stop</item>
-    </items>
   </widget>
   <widget type="led" version="2.0.0">
     <name>LED</name>
@@ -254,31 +242,6 @@ Hatch Door</text>
     <y>470</y>
     <precision>-2</precision>
   </widget>
-  <widget type="rectangle" version="2.0.0">
-    <name>Rectangle_1</name>
-    <x>580</x>
-    <y>450</y>
-    <width>110</width>
-    <height>40</height>
-    <line_color>
-      <color name="Button_Background" red="210" green="210" blue="210">
-      </color>
-    </line_color>
-    <background_color>
-      <color name="Button_Background" red="210" green="210" blue="210">
-      </color>
-    </background_color>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label_21</name>
-    <text>DAS</text>
-    <x>580</x>
-    <y>450</y>
-    <width>110</width>
-    <height>40</height>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>Label_5</name>
     <text>P2</text>
@@ -300,8 +263,8 @@ Hatch Door</text>
 TEMPERATURE</text>
     <x>330</x>
     <y>10</y>
-    <width>150</width>
-    <height>74</height>
+    <width>137</width>
+    <height>44</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="18.0">
       </font>
@@ -332,111 +295,243 @@ TEMPERATURE</text>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update</name>
-    <pv_name>c6_air_inlet</pv_name>
+    <pv_name>floctl:ai:c6_air_inlet</pv_name>
     <x>340</x>
     <y>92</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 350">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:c6_air_inlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_7</name>
-    <pv_name>c1_air_inlet</pv_name>
+    <pv_name>floctl:ai:c1_air_inlet</pv_name>
     <x>340</x>
     <y>126</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 350">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:c1_air_inlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_8</name>
-    <pv_name>c2_air_inlet</pv_name>
+    <pv_name>floctl:ai:c2_air_inlet</pv_name>
     <x>340</x>
     <y>156</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 350">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:c2_air_inlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_9</name>
-    <pv_name>c3_air_inlet</pv_name>
+    <pv_name>floctl:ai:c3_air_inlet</pv_name>
     <x>340</x>
     <y>186</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 350">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:c3_air_inlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_10</name>
-    <pv_name>c4_air_inlet</pv_name>
+    <pv_name>floctl:ai:c4_air_inlet</pv_name>
     <x>340</x>
     <y>216</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 350">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:c4_air_inlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_11</name>
-    <pv_name>c5_air_inlet</pv_name>
+    <pv_name>floctl:ai:c5_air_inlet</pv_name>
     <x>340</x>
     <y>246</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 175">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:c5_air_inlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_17</name>
-    <pv_name>c6_water_outlet</pv_name>
+    <pv_name>floctl:ai:c6_water_outlet</pv_name>
     <x>420</x>
     <y>92</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 135">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:c6_water_outlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_18</name>
-    <pv_name>c1_water_outlet</pv_name>
+    <pv_name>floctl:ai:c1_water_outlet</pv_name>
     <x>420</x>
     <y>126</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 135">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:c1_water_outlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_19</name>
-    <pv_name>c2_water_outlet</pv_name>
+    <pv_name>floctl:ai:c2_water_outlet</pv_name>
     <x>420</x>
     <y>156</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 135">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:c2_water_outlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_20</name>
-    <pv_name>c3_water_outlet</pv_name>
+    <pv_name>floctl:ai:c3_water_outlet</pv_name>
     <x>420</x>
     <y>186</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 135">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:c3_water_outlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_21</name>
-    <pv_name>c4_water_outlet</pv_name>
+    <pv_name>floctl:ai:c4_water_outlet</pv_name>
     <x>420</x>
     <y>216</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 135">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:c4_water_outlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_22</name>
-    <pv_name>c5_water_outlet</pv_name>
+    <pv_name>floctl:ai:c5_water_outlet</pv_name>
     <x>420</x>
     <y>246</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 105">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:c5_water_outlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_25</name>
@@ -486,8 +581,8 @@ TEMPERATURE</text>
 TEMPERATURE</text>
     <x>548</x>
     <y>20</y>
-    <width>152</width>
-    <height>60</height>
+    <width>137</width>
+    <height>44</height>
     <font>
       <font family="Liberation Sans" style="REGULAR" size="18.0">
       </font>
@@ -518,111 +613,243 @@ TEMPERATURE</text>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_23</name>
-    <pv_name>compI_air_inlet</pv_name>
+    <pv_name>floctl:ai:compI_air_inlet</pv_name>
     <x>558</x>
     <y>92</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 175">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:compI_air_inlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_24</name>
-    <pv_name>compD_air_inlet</pv_name>
+    <pv_name>floctl:ai:compD_air_inlet</pv_name>
     <x>558</x>
     <y>126</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 175">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:compD_air_inlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_25</name>
-    <pv_name>compC_air_inlet</pv_name>
+    <pv_name>floctl:ai:compC_air_inlet</pv_name>
     <x>558</x>
     <y>156</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 175">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:compC_air_inlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_26</name>
-    <pv_name>compE_air_inlet</pv_name>
+    <pv_name>floctl:ai:compE_air_inlet</pv_name>
     <x>558</x>
     <y>186</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 175">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:compE_air_inlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_27</name>
-    <pv_name>compF_air_inlet</pv_name>
+    <pv_name>floctl:ai:compF_air_inlet</pv_name>
     <x>558</x>
     <y>216</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 175">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:compF_air_inlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_28</name>
-    <pv_name>compG_air_inlet</pv_name>
+    <pv_name>floctl:ai:compG_air_inlet</pv_name>
     <x>558</x>
     <y>246</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 175">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:compG_air_inlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_29</name>
-    <pv_name>compI_air_outlet</pv_name>
+    <pv_name>floctl:ai:compI_air_outlet</pv_name>
     <x>638</x>
     <y>92</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 350">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:compI_air_outlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_30</name>
-    <pv_name>compD_air_outlet</pv_name>
+    <pv_name>floctl:ai:compD_air_outlet</pv_name>
     <x>638</x>
     <y>126</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 350">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:compD_air_outlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_31</name>
-    <pv_name>compC_air_outlet</pv_name>
+    <pv_name>floctl:ai:compC_air_outlet</pv_name>
     <x>638</x>
     <y>156</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 350">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:compC_air_outlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_32</name>
-    <pv_name>compE_air_outlet</pv_name>
+    <pv_name>floctl:ai:compE_air_outlet</pv_name>
     <x>638</x>
     <y>186</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 350">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:compE_air_outlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_33</name>
-    <pv_name>compF_air_outlet</pv_name>
+    <pv_name>floctl:ai:compF_air_outlet</pv_name>
     <x>638</x>
     <y>216</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 350">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:compF_air_outlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_34</name>
-    <pv_name>compG_air_outlet</pv_name>
+    <pv_name>floctl:ai:compG_air_outlet</pv_name>
     <x>638</x>
     <y>246</y>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <rules>
+      <rule name="Alarm" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 &gt;= 350">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>floctl:ai:compG_air_outlet</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_33</name>
@@ -668,7 +895,7 @@ TEMPERATURE</text>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_39</name>
-    <text>TEST SECTION 2</text>
+    <text>TEST SECTION 1</text>
     <x>120</x>
     <y>330</y>
     <width>160</width>
@@ -757,7 +984,7 @@ Hatch Door</text>
   </widget>
   <widget type="led" version="2.0.0">
     <name>LED_13</name>
-    <pv_name>flo_PLC:wi04:ts1_hatch_door</pv_name>
+    <pv_name>flo_PLC:wi03:ts1_hatch_door</pv_name>
     <x>356</x>
     <y>420</y>
   </widget>
@@ -791,6 +1018,23 @@ Hatch Door</text>
       <color name="Button_Background" red="210" green="210" blue="210">
       </color>
     </background_color>
+    <rules>
+      <rule name="Color" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 != 1">
+          <value>
+            <color name="Button_Background" red="210" green="210" blue="210">
+            </color>
+          </value>
+        </exp>
+        <pv_name>flo_scrm:CURTUNSC</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_46</name>
@@ -804,10 +1048,53 @@ Hatch Door</text>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>Action Button</name>
+    <pv_name>flo_PLC:wo02:temp_alarm</pv_name>
     <text>Alarm Acknowledge</text>
     <x>430</x>
     <y>290</y>
     <width>170</width>
     <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_4</name>
+    <x>580</x>
+    <y>450</y>
+    <width>110</width>
+    <height>40</height>
+    <line_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="Color" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pv0 == 2">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 != 2">
+          <value>
+            <color name="Button_Background" red="210" green="210" blue="210">
+            </color>
+          </value>
+        </exp>
+        <pv_name>flo_scrm:CURTUNSC</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_47</name>
+    <text>DAS</text>
+    <x>580</x>
+    <y>450</y>
+    <width>110</width>
+    <height>40</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
   </widget>
 </display>
