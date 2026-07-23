@@ -1,0 +1,2067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <width>780</width>
+  <height>390</height>
+  <widget type="polyline" version="2.0.0">
+    <name>XI Ix B3 C3</name>
+    <x>130</x>
+    <y>150</y>
+    <width>40</width>
+    <height>80</height>
+    <points>
+      <point x="20.0" y="20.0">
+      </point>
+      <point x="0.0" y="20.0">
+      </point>
+      <point x="40.0" y="20.0">
+      </point>
+      <point x="20.0" y="20.0">
+      </point>
+      <point x="20.0" y="0.0">
+      </point>
+      <point x="20.0" y="80.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Vacum</name>
+    <x>10</x>
+    <y>330</y>
+    <width>290</width>
+    <height>60</height>
+    <points>
+      <point x="110.0" y="20.0">
+      </point>
+      <point x="110.0" y="20.0">
+      </point>
+      <point x="110.0" y="20.0">
+      </point>
+      <point x="110.0" y="0.0">
+      </point>
+      <point x="110.0" y="30.0">
+      </point>
+      <point x="110.0" y="60.0">
+      </point>
+      <point x="290.0" y="60.0">
+      </point>
+      <point x="290.0" y="0.0">
+      </point>
+      <point x="290.0" y="60.0">
+      </point>
+      <point x="110.0" y="60.0">
+      </point>
+      <point x="0.0" y="60.0">
+      </point>
+    </points>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>XII B2 XIII XIV VIII</name>
+    <x>230</x>
+    <y>150</y>
+    <width>40</width>
+    <height>100</height>
+    <points>
+      <point x="20.0" y="0.0">
+      </point>
+      <point x="20.0" y="20.0">
+      </point>
+      <point x="0.0" y="20.0">
+      </point>
+      <point x="40.0" y="20.0">
+      </point>
+      <point x="20.0" y="20.0">
+      </point>
+      <point x="20.0" y="100.0">
+      </point>
+      <point x="40.0" y="100.0">
+      </point>
+      <point x="0.0" y="100.0">
+      </point>
+      <point x="20.0" y="100.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Dry Air</name>
+    <x>10</x>
+    <y>20</y>
+    <width>320</width>
+    <height>40</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="20.0" y="0.0">
+      </point>
+      <point x="20.0" y="40.0">
+      </point>
+      <point x="20.0" y="0.0">
+      </point>
+      <point x="120.0" y="0.0">
+      </point>
+      <point x="120.0" y="40.0">
+      </point>
+      <point x="120.0" y="0.0">
+      </point>
+      <point x="220.0" y="0.0">
+      </point>
+      <point x="220.0" y="40.0">
+      </point>
+      <point x="220.0" y="0.0">
+      </point>
+      <point x="320.0" y="0.0">
+      </point>
+      <point x="320.0" y="40.0">
+      </point>
+    </points>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>P104 C4</name>
+    <x>30</x>
+    <y>60</y>
+    <width>20</width>
+    <height>90</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="70.0">
+      </point>
+      <point x="20.0" y="90.0">
+      </point>
+    </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="STOP" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>flo_PLC:wo01:sv104_open</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>P103 C3</name>
+    <x>130</x>
+    <y>60</y>
+    <width>20</width>
+    <height>90</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="70.0">
+      </point>
+      <point x="20.0" y="90.0">
+      </point>
+    </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="STOP" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>flo_PLC:wo01:sv103_open</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>P102 C2</name>
+    <x>230</x>
+    <y>60</y>
+    <width>20</width>
+    <height>90</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="70.0">
+      </point>
+      <point x="20.0" y="90.0">
+      </point>
+    </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>flo_PLC:wo01:sv102_open</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>P101 C1</name>
+    <x>330</x>
+    <y>60</y>
+    <width>40</width>
+    <height>70</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="70.0">
+      </point>
+      <point x="40.0" y="70.0">
+      </point>
+    </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>flo_PLC:wo01:sv101_open</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>C4 B4 X</name>
+    <x>50</x>
+    <y>150</y>
+    <width>10</width>
+    <height>80</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="20.0">
+      </point>
+      <point x="10.0" y="20.0">
+      </point>
+      <point x="0.0" y="20.0">
+      </point>
+      <point x="0.0" y="80.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>C4 G B4 XI</name>
+    <x>50</x>
+    <y>90</y>
+    <width>80</width>
+    <height>80</height>
+    <points>
+      <point x="10.0" y="80.0">
+      </point>
+      <point x="30.0" y="80.0">
+      </point>
+      <point x="80.0" y="80.0">
+      </point>
+      <point x="40.0" y="80.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="60.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>G3 F B3 XII</name>
+    <x>150</x>
+    <y>90</y>
+    <width>80</width>
+    <height>80</height>
+    <points>
+      <point x="10.0" y="80.0">
+      </point>
+      <point x="30.0" y="80.0">
+      </point>
+      <point x="80.0" y="80.0">
+      </point>
+      <point x="40.0" y="80.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="60.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>B2 C2 E XIII</name>
+    <x>250</x>
+    <y>90</y>
+    <width>80</width>
+    <height>80</height>
+    <points>
+      <point x="10.0" y="80.0">
+      </point>
+      <point x="30.0" y="80.0">
+      </point>
+      <point x="80.0" y="80.0">
+      </point>
+      <point x="40.0" y="80.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="60.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>C1 C D XX I B1 II</name>
+    <x>340</x>
+    <y>10</y>
+    <width>410</width>
+    <height>140</height>
+    <points>
+      <point x="30.0" y="120.0">
+      </point>
+      <point x="30.0" y="110.0">
+      </point>
+      <point x="0.0" y="110.0">
+      </point>
+      <point x="0.0" y="80.0">
+      </point>
+      <point x="30.0" y="80.0">
+      </point>
+      <point x="60.0" y="80.0">
+      </point>
+      <point x="60.0" y="110.0">
+      </point>
+      <point x="30.0" y="110.0">
+      </point>
+      <point x="60.0" y="110.0">
+      </point>
+      <point x="60.0" y="80.0">
+      </point>
+      <point x="40.0" y="80.0">
+      </point>
+      <point x="40.0" y="50.0">
+      </point>
+      <point x="120.0" y="50.0">
+      </point>
+      <point x="110.0" y="50.0">
+      </point>
+      <point x="110.0" y="0.0">
+      </point>
+      <point x="40.0" y="0.0">
+      </point>
+      <point x="40.0" y="50.0">
+      </point>
+      <point x="110.0" y="50.0">
+      </point>
+      <point x="110.0" y="140.0">
+      </point>
+      <point x="60.0" y="140.0">
+      </point>
+      <point x="110.0" y="140.0">
+      </point>
+      <point x="110.0" y="0.0">
+      </point>
+      <point x="330.0" y="0.0">
+      </point>
+      <point x="330.0" y="50.0">
+      </point>
+      <point x="330.0" y="0.0">
+      </point>
+      <point x="410.0" y="0.0">
+      </point>
+      <point x="410.0" y="50.0">
+      </point>
+      <point x="410.0" y="0.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>XX I C6 B5</name>
+    <x>470</x>
+    <y>60</y>
+    <width>60</width>
+    <height>60</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="10.0" y="0.0">
+      </point>
+      <point x="10.0" y="10.0">
+      </point>
+      <point x="60.0" y="10.0">
+      </point>
+      <point x="60.0" y="60.0">
+      </point>
+      <point x="60.0" y="10.0">
+      </point>
+      <point x="10.0" y="10.0">
+      </point>
+      <point x="10.0" y="60.0">
+      </point>
+      <point x="10.0" y="60.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>I V5 V8 VIII IV VII</name>
+    <x>270</x>
+    <y>60</y>
+    <width>400</width>
+    <height>270</height>
+    <points>
+      <point x="30.0" y="270.0">
+      </point>
+      <point x="30.0" y="230.0">
+      </point>
+      <point x="30.0" y="250.0">
+      </point>
+      <point x="100.0" y="250.0">
+      </point>
+      <point x="100.0" y="190.0">
+      </point>
+      <point x="0.0" y="190.0">
+      </point>
+      <point x="100.0" y="190.0">
+      </point>
+      <point x="100.0" y="170.0">
+      </point>
+      <point x="100.0" y="190.0">
+      </point>
+      <point x="210.0" y="190.0">
+      </point>
+      <point x="210.0" y="170.0">
+      </point>
+      <point x="210.0" y="190.0">
+      </point>
+      <point x="100.0" y="190.0">
+      </point>
+      <point x="100.0" y="250.0">
+      </point>
+      <point x="100.0" y="270.0">
+      </point>
+      <point x="400.0" y="270.0">
+      </point>
+      <point x="400.0" y="0.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>V13 V14 X IX V</name>
+    <x>50</x>
+    <y>230</y>
+    <width>580</width>
+    <height>140</height>
+    <points>
+      <point x="180.0" y="20.0">
+      </point>
+      <point x="100.0" y="20.0">
+      </point>
+      <point x="100.0" y="0.0">
+      </point>
+      <point x="100.0" y="20.0">
+      </point>
+      <point x="0.0" y="20.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="20.0">
+      </point>
+      <point x="100.0" y="20.0">
+      </point>
+      <point x="100.0" y="80.0">
+      </point>
+      <point x="70.0" y="80.0">
+      </point>
+      <point x="70.0" y="60.0">
+      </point>
+      <point x="70.0" y="100.0">
+      </point>
+      <point x="70.0" y="80.0">
+      </point>
+      <point x="100.0" y="80.0">
+      </point>
+      <point x="100.0" y="140.0">
+      </point>
+      <point x="580.0" y="140.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>II V</name>
+    <x>630</x>
+    <y>60</y>
+    <width>120</width>
+    <height>310</height>
+    <points>
+      <point x="0.0" y="310.0">
+      </point>
+      <point x="120.0" y="310.0">
+      </point>
+      <point x="120.0" y="0.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>XII IV B1 VII C6 B5</name>
+    <x>330</x>
+    <y>120</y>
+    <width>200</width>
+    <height>110</height>
+    <points>
+      <point x="0.0" y="50.0">
+      </point>
+      <point x="40.0" y="50.0">
+      </point>
+      <point x="40.0" y="30.0">
+      </point>
+      <point x="20.0" y="30.0">
+      </point>
+      <point x="20.0" y="50.0">
+      </point>
+      <point x="40.0" y="50.0">
+      </point>
+      <point x="40.0" y="30.0">
+      </point>
+      <point x="40.0" y="10.0">
+      </point>
+      <point x="40.0" y="30.0">
+      </point>
+      <point x="70.0" y="30.0">
+      </point>
+      <point x="40.0" y="30.0">
+      </point>
+      <point x="40.0" y="50.0">
+      </point>
+      <point x="150.0" y="50.0">
+      </point>
+      <point x="150.0" y="0.0">
+      </point>
+      <point x="150.0" y="20.0">
+      </point>
+      <point x="200.0" y="20.0">
+      </point>
+      <point x="200.0" y="0.0">
+      </point>
+      <point x="200.0" y="20.0">
+      </point>
+      <point x="150.0" y="20.0">
+      </point>
+      <point x="150.0" y="110.0">
+      </point>
+      <point x="150.0" y="50.0">
+      </point>
+      <point x="40.0" y="50.0">
+      </point>
+      <point x="40.0" y="110.0">
+      </point>
+    </points>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>G</name>
+    <x>40</x>
+    <y>70</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>F</name>
+    <x>140</x>
+    <y>70</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>E</name>
+    <x>240</x>
+    <y>70</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>C</name>
+    <x>330</x>
+    <y>80</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>D</name>
+    <x>390</x>
+    <y>80</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>G</name>
+    <pv_name>flo_PLC:ai01</pv_name>
+    <x>60</x>
+    <y>70</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>F</name>
+    <pv_name>flo_PLC:ai02</pv_name>
+    <x>160</x>
+    <y>70</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>E</name>
+    <pv_name>flo_PLC:ai03</pv_name>
+    <x>260</x>
+    <y>70</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>C</name>
+    <pv_name>flo_PLC:ai04</pv_name>
+    <x>350</x>
+    <y>90</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>D</name>
+    <pv_name>flo_PLC:ai05</pv_name>
+    <x>410</x>
+    <y>70</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>I</name>
+    <x>470</x>
+    <y>80</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>I</name>
+    <pv_name>flo_PLC:ai06</pv_name>
+    <x>490</x>
+    <y>80</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>G</name>
+    <text>G</text>
+    <x>40</x>
+    <y>70</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>F</name>
+    <text>F</text>
+    <x>140</x>
+    <y>70</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>E</name>
+    <text>E</text>
+    <x>240</x>
+    <y>70</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>C</name>
+    <text>C</text>
+    <x>330</x>
+    <y>80</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>D</name>
+    <text>D</text>
+    <x>390</x>
+    <y>80</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>I</name>
+    <text>I</text>
+    <x>470</x>
+    <y>80</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>C4</name>
+    <x>40</x>
+    <y>140</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>C4</name>
+    <text>C4</text>
+    <x>40</x>
+    <y>140</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>C3</name>
+    <x>140</x>
+    <y>140</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>C3</name>
+    <text>C3</text>
+    <x>140</x>
+    <y>140</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>C2</name>
+    <x>240</x>
+    <y>140</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>C2</name>
+    <text>C2</text>
+    <x>240</x>
+    <y>140</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>C1</name>
+    <x>360</x>
+    <y>120</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>C1</name>
+    <text>C1</text>
+    <x>360</x>
+    <y>120</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>C6</name>
+    <x>470</x>
+    <y>110</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>C6</name>
+    <text>C6</text>
+    <x>470</x>
+    <y>110</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>C4</name>
+    <pv_name>flo_PLC:ai17</pv_name>
+    <y>150</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>C3</name>
+    <pv_name>flo_PLC:ai20</pv_name>
+    <x>90</x>
+    <y>140</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>C2</name>
+    <pv_name>flo_PLC:ai21</pv_name>
+    <x>190</x>
+    <y>140</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>C1</name>
+    <pv_name>flo_PLC:ai22</pv_name>
+    <x>310</x>
+    <y>130</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>C6</name>
+    <pv_name>flo_PLC:ai23</pv_name>
+    <x>480</x>
+    <y>140</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>P104</name>
+    <pv_name>flo_PLC:ai24</pv_name>
+    <x>40</x>
+    <y>40</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>P103</name>
+    <pv_name>flo_PLC:ai25</pv_name>
+    <x>140</x>
+    <y>40</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>P102</name>
+    <pv_name>flo_PLC:ai26</pv_name>
+    <x>240</x>
+    <y>40</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>P101</name>
+    <pv_name>flo_PLC:ai27</pv_name>
+    <x>340</x>
+    <y>40</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>V13</name>
+    <pv_name>flo_PLC:ai28</pv_name>
+    <x>70</x>
+    <y>280</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>V14</name>
+    <pv_name>flo_PLC:ai29</pv_name>
+    <x>70</x>
+    <y>320</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>V5</name>
+    <pv_name>flo_PLC:ai30</pv_name>
+    <x>250</x>
+    <y>320</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>V8</name>
+    <pv_name>flo_PLC:ai31</pv_name>
+    <x>250</x>
+    <y>280</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>P104</name>
+    <text>P104</text>
+    <x>40</x>
+    <y>30</y>
+    <width>30</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>P103</name>
+    <text>P103</text>
+    <x>140</x>
+    <y>30</y>
+    <width>30</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>P102</name>
+    <text>P102</text>
+    <x>240</x>
+    <y>30</y>
+    <width>30</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>P101</name>
+    <text>P101</text>
+    <x>340</x>
+    <y>30</y>
+    <width>30</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>B4</name>
+    <text>B4</text>
+    <x>60</x>
+    <y>180</y>
+    <width>20</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>XI</name>
+    <text>XI</text>
+    <x>120</x>
+    <y>180</y>
+    <width>20</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>B3</name>
+    <text>B3</text>
+    <x>160</x>
+    <y>180</y>
+    <width>20</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>XII</name>
+    <text>XII</text>
+    <x>220</x>
+    <y>180</y>
+    <width>20</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>B2</name>
+    <text>B2</text>
+    <x>260</x>
+    <y>180</y>
+    <width>20</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>XIII</name>
+    <text>XIII</text>
+    <x>320</x>
+    <y>180</y>
+    <width>20</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>B1</name>
+    <text>B1</text>
+    <x>390</x>
+    <y>130</y>
+    <width>20</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>XX</name>
+    <text>XX</text>
+    <x>450</x>
+    <y>70</y>
+    <width>20</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>B5</name>
+    <text>B5</text>
+    <x>540</x>
+    <y>110</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>VII</name>
+    <text>VII</text>
+    <x>490</x>
+    <y>220</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>IV</name>
+    <text>IV</text>
+    <x>380</x>
+    <y>220</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>VIII</name>
+    <text>VIII</text>
+    <x>280</x>
+    <y>230</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>I</name>
+    <text>I</text>
+    <x>680</x>
+    <y>50</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>XIV</name>
+    <text>XIV</text>
+    <x>220</x>
+    <y>260</y>
+    <width>20</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>IX</name>
+    <text>IX</text>
+    <x>160</x>
+    <y>220</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>X</name>
+    <text>X</text>
+    <x>60</x>
+    <y>220</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>V13</name>
+    <text>V13</text>
+    <x>70</x>
+    <y>270</y>
+    <width>40</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>V14</name>
+    <text>V14</text>
+    <x>70</x>
+    <y>310</y>
+    <width>40</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>V5</name>
+    <text>V5</text>
+    <x>230</x>
+    <y>320</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>V8</name>
+    <text>V8</text>
+    <x>230</x>
+    <y>280</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>V</name>
+    <text>V</text>
+    <x>640</x>
+    <y>350</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>II</name>
+    <text>II</text>
+    <x>760</x>
+    <y>50</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>TS1</name>
+    <x>660</x>
+    <y>120</y>
+    <width>20</width>
+    <height>30</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="30" green="144" blue="255" alpha="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>TS2</name>
+    <x>740</x>
+    <y>120</y>
+    <width>20</width>
+    <height>30</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="30" green="144" blue="255" alpha="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>TS1</name>
+    <text>TS1</text>
+    <x>650</x>
+    <y>120</y>
+    <width>10</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="9.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>TS2</name>
+    <text>TS2</text>
+    <x>730</x>
+    <y>120</y>
+    <width>10</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="9.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>VACUM</name>
+    <text>Vacum</text>
+    <y>370</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>DRY AIR</name>
+    <text>Dry Air</text>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="10.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>VIII</name>
+    <pv_name>flo_PLC:wo06:valveVIII_open</pv_name>
+    <x>260</x>
+    <y>240</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>V</name>
+    <pv_name>flo_PLC:wo06:valveV_open</pv_name>
+    <x>620</x>
+    <y>360</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>II</name>
+    <pv_name>flo_PLC:wo06:valveII_open</pv_name>
+    <x>740</x>
+    <y>50</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>I</name>
+    <pv_name>flo_PLC:wo06:valveI_open</pv_name>
+    <x>660</x>
+    <y>50</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>VII</name>
+    <pv_name>flo_PLC:wo06:valveVII_open</pv_name>
+    <x>470</x>
+    <y>220</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>IV</name>
+    <pv_name>flo_PLC:wo06:valveIV_open</pv_name>
+    <x>360</x>
+    <y>220</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>IX</name>
+    <pv_name>flo_PLC:wo07:valveIX_open</pv_name>
+    <x>140</x>
+    <y>220</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>X</name>
+    <pv_name>flo_PLC:wo07:valveX_open</pv_name>
+    <x>40</x>
+    <y>220</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>XI</name>
+    <pv_name>flo_PLC:wo07:valveXI_open</pv_name>
+    <x>120</x>
+    <y>160</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>XII</name>
+    <pv_name>flo_PLC:wo07:valveXII_open</pv_name>
+    <x>220</x>
+    <y>160</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>XIII</name>
+    <pv_name>flo_PLC:wo07:valveXIII_open</pv_name>
+    <x>320</x>
+    <y>160</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>XX</name>
+    <pv_name>flo_PLC:wo07:valveXX_open</pv_name>
+    <x>450</x>
+    <y>50</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>XIV</name>
+    <pv_name>flo_PLC:wo07:valveXIV_open</pv_name>
+    <x>220</x>
+    <y>240</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>B1</name>
+    <pv_name>flo_PLC:wo07:bypassB1_open</pv_name>
+    <x>390</x>
+    <y>140</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>B2</name>
+    <pv_name>flo_PLC:wo08:bypassB2_open</pv_name>
+    <x>260</x>
+    <y>160</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>B3</name>
+    <pv_name>flo_PLC:wo08:bypassB3_open</pv_name>
+    <x>160</x>
+    <y>160</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>B4</name>
+    <pv_name>flo_PLC:wo08:bypassB4_open</pv_name>
+    <x>60</x>
+    <y>160</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>B5</name>
+    <pv_name>flo_PLC:wo08:bypassB5_open</pv_name>
+    <x>520</x>
+    <y>110</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>P104</name>
+    <pv_name>flo_PLC:wo01:sv104_open</pv_name>
+    <x>20</x>
+    <y>50</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>P103</name>
+    <pv_name>flo_PLC:wo01:sv103_open</pv_name>
+    <x>120</x>
+    <y>50</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>P102</name>
+    <pv_name>flo_PLC:wo01:sv102_open</pv_name>
+    <x>220</x>
+    <y>50</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>P101</name>
+    <pv_name>flo_PLC:wo01:sv101_open</pv_name>
+    <x>320</x>
+    <y>50</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>V13</name>
+    <pv_name>flo_PLC:wi04:ps126hi</pv_name>
+    <x>110</x>
+    <y>280</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>V14</name>
+    <pv_name>flo_PLC:wi04:ps126low</pv_name>
+    <x>110</x>
+    <y>320</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>V8</name>
+    <pv_name>flo_PLC:wi04:ps125hi</pv_name>
+    <x>290</x>
+    <y>280</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>V5</name>
+    <pv_name>flo_PLC:wi04:ps125low</pv_name>
+    <x>290</x>
+    <y>320</y>
+    <width>20</width>
+    <height>20</height>
+    <off_label></off_label>
+    <off_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <on_label></on_label>
+    <show_led>false</show_led>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>C4</name>
+    <pv_name>flo_PLC:ai17</pv_name>
+    <y>170</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>C3</name>
+    <pv_name>flo_PLC:ai20</pv_name>
+    <x>80</x>
+    <y>120</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>C2</name>
+    <pv_name>flo_PLC:ai21</pv_name>
+    <x>180</x>
+    <y>120</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>C1</name>
+    <pv_name>flo_PLC:ai22</pv_name>
+    <x>280</x>
+    <y>110</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>C6</name>
+    <pv_name>flo_PLC:ai23</pv_name>
+    <x>520</x>
+    <y>140</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+</display>
