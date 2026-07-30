@@ -22,6 +22,27 @@
       <point x="20.0" y="80.0">
       </point>
     </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>pipe_seg_XI_Ix_B3_C3</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>Vacum</name>
@@ -84,6 +105,27 @@
       <point x="20.0" y="100.0">
       </point>
     </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>pipe_seg_XII_B2_XIII_XIV_VIII</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>Dry Air</name>
@@ -284,6 +326,27 @@
       <point x="0.0" y="80.0">
       </point>
     </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>pipe_seg_C4_B4_X</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>C4 G B4 XI</name>
@@ -305,6 +368,27 @@
       <point x="0.0" y="60.0">
       </point>
     </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>pipe_seg_C4_G_B4_XI</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>G3 F B3 XII</name>
@@ -326,6 +410,27 @@
       <point x="0.0" y="60.0">
       </point>
     </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>pipe_seg_G3_F_B3_XII</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>B2 C2 E XIII</name>
@@ -347,6 +452,27 @@
       <point x="0.0" y="60.0">
       </point>
     </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>pipe_seg_B2_C2_E_XIII</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>C1 C D XX I B1 II</name>
@@ -412,6 +538,27 @@
       <point x="410.0" y="0.0">
       </point>
     </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>pipe_seg_C1_C_D_XX_I_B1_II</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>XX I C6 B5</name>
@@ -439,6 +586,27 @@
       <point x="10.0" y="60.0">
       </point>
     </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>pipe_seg_XX_I_C6_B5</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>I V5 V8 VIII IV VII</name>
@@ -482,6 +650,27 @@
       <point x="400.0" y="0.0">
       </point>
     </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>pipe_seg_I_V5_V8_VIII_IV_VII</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>V13 V14 X IX V</name>
@@ -523,6 +712,27 @@
       <point x="580.0" y="140.0">
       </point>
     </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>pipe_seg_V13_V14_X_IX_V</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>II V</name>
@@ -538,6 +748,27 @@
       <point x="120.0" y="0.0">
       </point>
     </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>pipe_seg_II_V</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>XII IV B1 VII C6 B5</name>
@@ -593,6 +824,27 @@
       <point x="40.0" y="110.0">
       </point>
     </points>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <rules>
+      <rule name="color" prop_id="line_color" out_exp="false">
+        <exp bool_exp="pv0 == 1">
+          <value>
+            <color name="OK" red="0" green="255" blue="0">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pv0 == 0">
+          <value>
+            <color name="MAJOR" red="255" green="0" blue="0">
+            </color>
+          </value>
+        </exp>
+        <pv_name>pipe_seg_XII_IV_B1_VII_C6_B5</pv_name>
+      </rule>
+    </rules>
   </widget>
   <widget type="ellipse" version="2.0.0">
     <name>G</name>
