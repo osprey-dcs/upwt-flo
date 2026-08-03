@@ -39,6 +39,7 @@ dbLoadRecords("db/flo_stagp.db")
 dbLoadRecords("db/flo_temp.db")
 dbLoadRecords("db/flo_wdmon.db")
 dbLoadRecords("db/sim.db")
+dbLoadRecords("db/tunnel_logic.db")
 
 cd "${TOP}/iocBoot/${IOC}"
 iocInit
