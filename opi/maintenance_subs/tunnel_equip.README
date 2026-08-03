@@ -1,0 +1,8 @@
+!!!README FOR TUNNEL_EQUIP!!!
+
+!!!IMPORTANT NOTES!!!
+
+- Nozzle Block Text Updates call the same PV as per FAS manual. Unsure if this is intended.
+
+- HYDRAULICS START/STOP button calls 2 separate pvs, flo_PLC:wo02:hyd_start and flo_PLC:wo02:hyd_stop. There is no way to achieve this in
+  PHOEBUS and needs to be offloaded onto a .db file and updated in tunnel_equip.bob.

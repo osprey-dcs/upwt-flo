@@ -1,0 +1,14 @@
+!!!README FOR TUNNEL_PARAM!!!
+
+!!!IMPORTANT NOTES!!!
+
+- Values for "In Bleed Values % open", "Stagnation Pressure", and "% damper open" use 
+  equations to calculate the updated values. These equations must be imported into a .db file then updated in tunnel_param.bob.
+  
+- Dewpoint AUTO/MANUAL PV is not clearly listed within FAS MANUAL.
+
+- Status text update for DEWPOINT, PRESSURE, and TEMPERATURE have 3 possible string values of "LOCKED", "SEEKING", and "MANUAL". 
+  This feature needs to be offloaded to a separate .db and updated in tunnel_param.bob
+
+- ERROR text update for DEWPOINT, PRESSURE, and TEMPERATURE are calculated individually and updated accordingly.
+  This feature needs to be offloaded to a separate .db and updated in tunnel_param.bob
