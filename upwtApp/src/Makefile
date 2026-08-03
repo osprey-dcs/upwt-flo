@@ -16,10 +16,10 @@ DBD += upwt.dbd
 upwt_DBD += base.dbd
 
 # Include dbd files from all support applications:
-#upwt_DBD += xxx.dbd
+upwt_DBD += etherIP.dbd
 
 # Add all the support libraries needed by this IOC
-#upwt_LIBS += xxx
+upwt_LIBS += etherIP
 
 # upwt_registerRecordDeviceDriver.cpp derives from upwt.dbd
 upwt_SRCS += upwt_registerRecordDeviceDriver.cpp
@@ -39,4 +39,3 @@ upwt_LIBS += $(EPICS_BASE_IOC_LIBS)
 include $(TOP)/configure/RULES
 #----------------------------------------
 #  ADD RULES AFTER THIS LINE
-

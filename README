@@ -1,0 +1,6 @@
+Edit configure/RELEASE.local to accurately point to EPICS Base, and its
+support modules
+
+ETHER_IP -> /opt/epics/support/ether_ip-x-xx
+$ cd /opt/epics/support
+$ git clone --branch ether_ip-3-10 https://github.com/EPICS-modules/ether_ip.git ether_ip-3-10
