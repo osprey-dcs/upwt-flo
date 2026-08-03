@@ -1,0 +1,358 @@
+record(calc, "pipe_segment_1") {
+  field(INPA, "flo_PLC:wo07:valveXI_open")
+  field(INPB, "flo_PLC:wo08:bypassB4_open")
+  field(CALC, "A||B")
+}
+
+record(calc, "pipe_segment_2") {
+  field(INPA, "flo_PLC:wo07:valveXI_open")
+  field(INPB, "flo_PLC:wo08:bypassB4_open")
+  field(INPC, "flo_PLC:wo01:sv104_open")
+  field(CALC, "A||(B&&A)||C")
+}
+
+record(calc, "pipe_segment_3") {
+  field(INPA, "flo_PLC:wo07:valveX_open")
+  field(INPB, "flo_PLC:wo07:valveXIV_open")
+  field(INPC, "flo_PLC:wo06:valveV_open")
+  field(INPD, "flo_PLC:wi04:ps126hi")
+  field(INPE, "flo_PLC:wi04:ps126low")
+  field(CALC, "A&&(B||C||D||E)")
+}
+
+record(calc, "pipe_segment_4") {
+  field(INPA, "flo_PLC:wo07:valveXII_open")
+  field(INPB, "flo_PLC:wo08:bypassB3_open")
+  field(CALC, "A||B")
+}
+
+record(calc, "pipe_segment_5") {
+  field(INPA, "flo_PLC:wo07:valveIX_open")
+  field(INPB, "flo_PLC:wo07:valveXIV_open")
+  field(INPC, "flo_PLC:wo06:valveV_open")
+  field(INPD, "flo_PLC:wi04:ps126hi")
+  field(INPE, "flo_PLC:wi04:ps126low")
+  field(CALC, "A&&(B||C||D||E)")
+}
+
+record(calc, "pipe_segment_6") {
+  field(INPA, "flo_PLC:wo07:valveXII_open")
+  field(INPB, "flo_PLC:wo08:bypassB3_open")
+  field(INPC, "flo_PLC:wo07:valveXI_open")
+  field(CALC, "A||(B&&A)||C")
+}
+
+record(calc, "pipe_segment_7") {
+  field(INPA, "flo_PLC:wo08:bypassB4_open")
+  field(CALC, "A")
+}
+
+record(calc, "pipe_segment_8") {
+  field(INPA, "flo_PLC:wo07:valveXII_open")
+  field(INPB, "flo_PLC:wo01:sv103_open")
+  field(INPC, "flo_PLC:wo08:bypassB3_open")
+  field(CALC, "A||B||C")
+}
+
+record(calc, "pipe_segment_9") {
+  field(INPA, "flo_PLC:wo07:valveX_open")
+  field(INPB, "flo_PLC:wo06:valveIV_open")
+  field(INPC, "flo_PLC:wo07:valveXIV_open")
+  field(INPD, "flo_PLC:wo06:valveV_open")
+  field(INPE, "flo_PLC:wi04:ps126hi")
+  field(INPF, "flo_PLC:wi04:ps126low")
+  field(CALC, "((A||B)&&C)||(C&&(D||E||F))")
+}
+
+record(calc, "pipe_segment_10") {
+  field(INPA, "flo_PLC:wo08:bypassB3_open")
+  field(CALC, "A")
+}
+
+record(calc, "pipe_segment_11") {
+  field(INPA, "flo_PLC:wo07:valveXIII_open")
+  field(INPB, "flo_PLC:wo08:bypassB2_open")
+  field(CALC, "A||B")
+}
+
+record(calc, "pipe_segment_12") {
+  field(INPA, "flo_PLC:wo07:valveXIII_open")
+  field(INPB, "flo_PLC:wo08:bypassB2_open")
+  field(INPC, "flo_PLC:wo07:valveXII_open")
+  field(CALC, "(A||B)&&C")
+}
+
+record(calc, "pipe_segment_13") {
+  field(INPA, "flo_PLC:wo07:valveXIII_open")
+  field(INPB, "flo_PLC:wo08:bypassB2_open")
+  field(INPC, "flo_PLC:wo01:sv103_open")
+  field(CALC, "A||(B&&A)||C")
+}
+
+record(calc, "pipe_segment_14") {
+  field(INPA, "flo_PLC:wo07:valveXIII_open")
+  field(INPB, "flo_PLC:wo08:bypassB2_open")
+  field(INPC, "flo_PLC:wo07:valveXIV_open")
+  field(INPD, "flo_PLC:wo07:valveX_open")
+  field(INPE, "flo_PLC:wo06:valveIV_open")
+  field(CALC, "((A||B)&&C)||((D||E)&&C)")
+}
+
+record(calc, "pipe_segment_15") {
+  field(INPA, "flo_PLC:wo08:bypassB2_open")
+  field(CALC, "A")
+}
+
+record(calc, "pipe_segment_16") {
+  field(INPA, "flo_PLC:wo01:sv101_open")
+  field(CALC, "A")
+}
+
+record(calc, "pipe_segment_17") {
+  field(INPA, "flo_PLC:wo06:valveI_open")
+  field(INPB, "flo_PLC:wo06:valveII_open")
+  field(INPC, "flo_PLC:wo07:valveXX_open")
+  field(CALC, "A||B||C")
+}
+
+record(calc, "pipe_segment_18") {
+  field(INPA, "flo_PLC:wo01:sv101_open")
+  field(INPB, "flo_PLC:wo06:valveI_open")
+  field(INPC, "flo_PLC:wo06:valveII_open")
+  field(INPD, "flo_PLC:wo07:bypassB1_open")
+  field(CALC, "A||B||C||D")
+}
+
+record(calc, "pipe_segment_19") {
+  field(INPA, "flo_PLC:wo06:valveIV_open")
+  field(CALC, "A")
+}
+
+record(calc, "pipe_segment_20") {
+  field(INPA, "flo_PLC:wo06:valveIV_open")
+  field(INPB, "flo_PLC:wo06:valveVIII_open")
+  field(INPC, "flo_PLC:wo06:valveI_open")
+  field(INPD, "flo_PLC:wi04:ps125hi")
+  field(INPE, "flo_PLC:wi04:ps125low")
+  field(INPF, "flo_PLC:wo06:valveII_open")
+  field(CALC, "A&&(B||C||D||E||F)")
+}
+
+record(calc, "pipe_segment_21") {
+  field(INPA, "flo_PLC:wo06:valveVIII_open")
+  field(CALC, "A")
+}
+
+record(calc, "pipe_segment_22") {
+  field(INPA, "flo_PLC:wo06:valveVII_open")
+  field(INPB, "flo_PLC:wo06:valveIV_open")
+  field(INPC, "flo_PLC:wo06:valveVIII_open")
+  field(INPD, "flo_PLC:wo07:valveXIV_open")
+  field(INPE, "flo_PLC:wo07:valveXIII_open")
+  field(CALC, "((A||B)&&C)||(C&&(D||E))")
+}
+
+record(calc, "pipe_segment_23") {
+  field(INPA, "flo_PLC:wo07:bypassB1_open")
+  field(CALC, "A")
+}
+
+record(calc, "pipe_segment_24") {
+  field(INPA, "flo_PLC:wo07:valveXX_open")
+  field(INPB, "flo_PLC:wo08:bypassB5_open")
+  field(INPC, "flo_PLC:wo06:valveI_open")
+  field(INPD, "flo_PLC:wo06:valveII_open")
+  field(CALC, "(A&&B)||C||D||A")
+}
+
+record(calc, "pipe_segment_25") {
+  field(INPA, "flo_PLC:wo06:valveI_open")
+  field(INPB, "flo_PLC:wo06:valveII_open")
+  field(INPC, "flo_PLC:wo07:bypassB1_open")
+  field(CALC, "A||B||C")
+}
+
+record(calc, "pipe_segment_26") {
+  field(INPA, "flo_PLC:wo06:valveI_open")
+  field(INPB, "flo_PLC:wo06:valveII_open")
+  field(INPC, "flo_PLC:wo07:valveXX_open")
+  field(INPD, "flo_PLC:wo07:valveXIII_open")
+  field(INPE, "flo_PLC:wo06:valveIV_open")
+  field(INPF, "flo_PLC:wo06:valveVII_open")
+  field(INPG, "flo_PLC:wo07:bypassB1_open")
+  field(CALC, "(A||B)&&(C||D||E||F)||G")
+}
+
+record(calc, "pipe_segment_27") {
+  field(INPA, "flo_PLC:wo07:valveXX_open")
+  field(CALC, "A")
+}
+
+record(calc, "pipe_segment_28") {
+  field(INPA, "flo_PLC:wo07:valveXX_open")
+  field(INPB, "flo_PLC:wo08:bypassB5_open")
+  field(CALC, "A||B")
+}
+
+record(calc, "pipe_segment_29") {
+  field(INPA, "flo_PLC:wo06:valveVII_open")
+  field(CALC, "A")
+}
+
+record(calc, "pipe_segment_30") {
+  field(INPA, "flo_PLC:wo06:valveVII_open")
+  field(INPB, "flo_PLC:wo06:valveVIII_open")
+  field(INPC, "flo_PLC:wo06:valveI_open")
+  field(INPD, "flo_PLC:wi04:ps125hi")
+  field(INPE, "flo_PLC:wi04:ps125low")
+  field(INPF, "flo_PLC:wo06:valveII_open")
+  field(CALC, "A&&(B||C||D||E||F)")
+}
+
+record(calc, "pipe_segment_31") {
+  field(INPA, "flo_PLC:wo06:valveVIII_open")
+  field(INPB, "flo_PLC:wo06:valveIV_open")
+  field(INPC, "flo_PLC:wo06:valveVII_open")
+  field(INPD, "flo_PLC:wi04:ps125hi")
+  field(INPE, "flo_PLC:wi04:ps125low")
+  field(INPF, "flo_PLC:wo06:valveI_open")
+  field(CALC, "(A||B||C)&&(D||E||F)")
+}
+
+record(calc, "pipe_segment_32") {
+  field(INPA, "flo_PLC:wo08:bypassB5_open")
+  field(CALC, "A")
+}
+
+record(calc, "pipe_segment_33") {
+  field(INPA, "flo_PLC:wo06:valveVIII_open")
+  field(INPB, "flo_PLC:wo06:valveIV_open")
+  field(INPC, "flo_PLC:wo06:valveVII_open")
+  field(INPD, "flo_PLC:wo06:valveI_open")
+  field(CALC, "(A||B||C)&&D")
+}
+
+record(calc, "pipe_segment_34") {
+  field(INPA, "flo_PLC:wo06:valveI_open")
+  field(INPB, "flo_PLC:wo06:valveII_open")
+  field(INPC, "flo_PLC:wo07:valveXX_open")
+  field(INPD, "flo_PLC:wo07:bypassB1_open")
+  field(INPE, "flo_PLC:wo07:valveXIII_open")
+  field(INPF, "flo_PLC:wo06:valveIV_open")
+  field(INPG, "flo_PLC:wo06:valveVII_open")
+  field(CALC, "(A||B)&&(C||D||E||F||G)")
+}
+
+record(calc, "pipe_segment_35") {
+  field(INPA, "flo_PLC:wi04:ps125hi")
+  field(INPB, "flo_PLC:wi04:ps125low")
+  field(CALC, "A||B")
+}
+
+record(calc, "pipe_segment_36") {
+  field(INPA, "flo_PLC:wo07:valveX_open")
+  field(INPB, "flo_PLC:wo07:valveIX_open")
+  field(INPC, "flo_PLC:wo07:valveXIV_open")
+  field(CALC, "A||B||C")
+}
+
+record(calc, "pipe_segment_37") {
+  field(INPA, "flo_PLC:wi04:ps126hi")
+  field(INPB, "flo_PLC:wi04:ps126low")
+  field(CALC, "A||B")
+}
+
+record(calc, "pipe_segment_38") {
+  field(INPA, "flo_PLC:wo06:valveV_open")
+  field(INPB, "flo_PLC:wo06:valveII_open")
+  field(CALC, "A&&B")
+}
+
+record(calc, "pipe_segment_39") {
+  field(INPA, "flo_PLC:wo06:valveII_open")
+  field(CALC, "A")
+}
+
+record(calc, "pipe_segment_40") {
+  field(INPA, "flo_PLC:wo07:valveXI_open")
+  field(INPB, "flo_PLC:wo08:bypassB4_open")
+  field(INPC, "flo_PLC:wo07:valveX_open")
+  field(CALC, "A&&(B||C)")
+}
+
+record(calc, "pipe_segment_41") {
+  field(INPA, "flo_PLC:wo07:valveXII_open")
+  field(INPB, "flo_PLC:wo08:bypassB3_open")
+  field(INPC, "flo_PLC:wo07:valveIX_open")
+  field(INPD, "flo_PLC:wo07:valveXI_open")
+  field(CALC, "A&&(B||C||D)")
+}
+
+record(calc, "pipe_segment_42") {
+  field(INPA, "flo_PLC:wo07:valveXIII_open")
+  field(INPB, "flo_PLC:wo08:bypassB2_open")
+  field(INPC, "flo_PLC:wo07:valveXII_open")
+  field(INPD, "flo_PLC:wo07:valveXIV_open")
+  field(INPE, "flo_PLC:wo06:valveVIII_open")
+  field(CALC, "A&&(B||C||D||E)")
+}
+
+record(calc, "pipe_segment_43") {
+  field(INPA, "flo_PLC:wo06:valveI_open")
+  field(INPB, "flo_PLC:wo07:valveXX_open")
+  field(INPC, "flo_PLC:wo07:bypassB1_open")
+  field(INPD, "flo_PLC:wo07:valveXIII_open")
+  field(INPE, "flo_PLC:wo06:valveIV_open")
+  field(INPF, "flo_PLC:wo06:valveVII_open")
+  field(CALC, "A&&(B||C||D||E||F)")
+}
+
+record(calc, "pipe_segment_44") {
+  field(INPA, "flo_PLC:wo01:sv104_open")
+  field(CALC, "A")
+}
+
+record(calc, "pipe_segment_45") {
+  field(INPA, "flo_PLC:wo01:sv103_open")
+  field(CALC, "A")
+}
+
+record(calc, "pipe_segment_46") {
+  field(INPA, "flo_PLC:wo01:sv102_open")
+  field(CALC, "A")
+}
+
+record(calc, "pipe_segment_47") {
+  field(INPA, "flo_PLC:wo07:valveXII_open")
+  field(INPB, "flo_PLC:wo08:bypassB3_open")
+  field(INPC, "flo_PLC:wo07:valveXI_open")
+  field(CALC, "(A||B)&&C")
+}
+
+record(calc, "pipe_segment_48") {
+  field(INPA, "flo_PLC:wo07:valveXX_open")
+  field(INPB, "flo_PLC:wo08:bypassB5_open")
+  field(CALC, "(A&&B)||A")
+}
+
+record(calc, "pipe_segment_49") {
+  field(INPA, "flo_PLC:wo06:valveI_open")
+  field(INPB, "flo_PLC:wo06:valveII_open")
+  field(INPC, "flo_PLC:wo07:bypassB1_open")
+  field(CALC, "(A||B)||(!B&&!A&&C)")
+}
+
+record(calc, "pipe_segment_50") {
+  field(INPA, "flo_PLC:wo06:valveI_open")
+  field(INPB, "flo_PLC:wo06:valveII_open")
+  field(INPC, "flo_PLC:wo07:valveXX_open")
+  field(INPD, "flo_PLC:wo07:bypassB1_open")
+  field(CALC, "(A||B||C||D)||(!A&&!B&&D)")
+}
+
+record(calc, "pipe_segment_51") {
+  field(INPA, "flo_PLC:wo07:valveXI_open")
+  field(INPB, "flo_PLC:wo08:bypassB4_open")
+  field(INPC, "flo_PLC:wo01:sv104_open")
+  field(CALC, "A||B||C")
+}
