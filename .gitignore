@@ -30,3 +30,5 @@ O.*/
 *.log
 .*.swp
 .DS_Store
+
+upwtApp/Db/*.csv
