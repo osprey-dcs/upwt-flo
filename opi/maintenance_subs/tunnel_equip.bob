@@ -20,7 +20,7 @@
     <width>75</width>
     <height>21</height>
     <font>
-      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      <font family="Times New Roman" style="REGULAR" size="18.0">
       </font>
     </font>
     <horizontal_alignment>1</horizontal_alignment>
@@ -35,6 +35,10 @@ Shut down</text>
     <y>40</y>
     <width>90</width>
     <height>40</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -46,6 +50,10 @@ Shut down</text>
     <y>40</y>
     <width>92</width>
     <height>40</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -57,7 +65,7 @@ Shut down</text>
     <width>129</width>
     <height>21</height>
     <font>
-      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      <font family="Times New Roman" style="REGULAR" size="18.0">
       </font>
     </font>
     <horizontal_alignment>1</horizontal_alignment>
@@ -70,6 +78,10 @@ Shut down</text>
     <x>30</x>
     <y>130</y>
     <width>20</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -78,9 +90,13 @@ Shut down</text>
     <text>Main Dr
 Vacum Pump</text>
     <x>80</x>
-    <y>112</y>
+    <y>130</y>
     <width>92</width>
-    <height>40</height>
+    <height>17</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -92,7 +108,7 @@ Vacum Pump</text>
     <width>117</width>
     <height>21</height>
     <font>
-      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      <font family="Times New Roman" style="REGULAR" size="18.0">
       </font>
     </font>
     <horizontal_alignment>1</horizontal_alignment>
@@ -106,6 +122,10 @@ Vacum Pump</text>
     <x>80</x>
     <y>200</y>
     <width>158</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
   </widget>
   <widget type="led" version="2.0.0">
     <name>LED</name>
@@ -139,7 +159,7 @@ Vacum Pump</text>
     <width>160</width>
     <height>30</height>
     <font>
-      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      <font family="Times New Roman" style="REGULAR" size="18.0">
       </font>
     </font>
     <horizontal_alignment>1</horizontal_alignment>
@@ -151,6 +171,10 @@ Vacum Pump</text>
     <x>470</x>
     <y>360</y>
     <width>80</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -160,6 +184,10 @@ Vacum Pump</text>
     <x>580</x>
     <y>360</y>
     <width>70</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -168,12 +196,14 @@ Vacum Pump</text>
     <pv_name>flo_stagp:set:ts2_stagp</pv_name>
     <x>460</x>
     <y>380</y>
+    <show_units>false</show_units>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_5</name>
     <pv_name>flo_stagp:set:ts2_dewpt</pv_name>
     <x>570</x>
     <y>380</y>
+    <show_units>false</show_units>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_17</name>
@@ -183,6 +213,10 @@ East Door</text>
     <y>410</y>
     <width>90</width>
     <height>40</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -194,6 +228,10 @@ West Door</text>
     <y>410</y>
     <width>80</width>
     <height>40</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -205,6 +243,10 @@ Hatch Door</text>
     <y>410</y>
     <width>88</width>
     <height>40</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -232,6 +274,10 @@ Hatch Door</text>
     <x>470</x>
     <y>450</y>
     <width>90</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -241,6 +287,7 @@ Hatch Door</text>
     <x>460</x>
     <y>470</y>
     <precision>-2</precision>
+    <show_units>false</show_units>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_5</name>
@@ -248,6 +295,10 @@ Hatch Door</text>
     <x>208</x>
     <y>130</y>
     <width>20</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -266,7 +317,7 @@ TEMPERATURE</text>
     <width>137</width>
     <height>44</height>
     <font>
-      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      <font family="Times New Roman" style="REGULAR" size="18.0">
       </font>
     </font>
     <horizontal_alignment>1</horizontal_alignment>
@@ -280,6 +331,10 @@ TEMPERATURE</text>
     <y>66</y>
     <width>50</width>
     <height>26</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -290,6 +345,10 @@ TEMPERATURE</text>
     <y>66</y>
     <width>80</width>
     <height>26</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -301,6 +360,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 350">
@@ -321,6 +381,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 350">
@@ -341,6 +402,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 350">
@@ -361,6 +423,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 350">
@@ -381,6 +444,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 350">
@@ -401,6 +465,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 175">
@@ -421,6 +486,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 135">
@@ -441,6 +507,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 135">
@@ -461,6 +528,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 135">
@@ -481,6 +549,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 135">
@@ -501,6 +570,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 135">
@@ -521,6 +591,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 105">
@@ -539,6 +610,10 @@ TEMPERATURE</text>
     <x>310</x>
     <y>92</y>
     <width>20</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_26</name>
@@ -546,6 +621,10 @@ TEMPERATURE</text>
     <x>310</x>
     <y>126</y>
     <width>20</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_27</name>
@@ -553,6 +632,10 @@ TEMPERATURE</text>
     <x>310</x>
     <y>156</y>
     <width>20</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_28</name>
@@ -560,6 +643,10 @@ TEMPERATURE</text>
     <x>310</x>
     <y>186</y>
     <width>20</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_29</name>
@@ -567,6 +654,10 @@ TEMPERATURE</text>
     <x>310</x>
     <y>216</y>
     <width>20</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_30</name>
@@ -574,6 +665,10 @@ TEMPERATURE</text>
     <x>310</x>
     <y>246</y>
     <width>20</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
   </widget>
   <widget type="label" version="2.0.0">
     <name>ALARMS_4</name>
@@ -584,7 +679,7 @@ TEMPERATURE</text>
     <width>137</width>
     <height>44</height>
     <font>
-      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      <font family="Times New Roman" style="REGULAR" size="18.0">
       </font>
     </font>
     <horizontal_alignment>1</horizontal_alignment>
@@ -598,6 +693,10 @@ TEMPERATURE</text>
     <y>66</y>
     <width>50</width>
     <height>26</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -608,6 +707,10 @@ TEMPERATURE</text>
     <y>66</y>
     <width>80</width>
     <height>26</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -619,6 +722,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 175">
@@ -639,6 +743,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 175">
@@ -659,6 +764,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 175">
@@ -679,6 +785,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 175">
@@ -699,6 +806,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 175">
@@ -719,6 +827,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 175">
@@ -739,6 +848,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 350">
@@ -759,6 +869,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 350">
@@ -779,6 +890,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 350">
@@ -799,6 +911,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 350">
@@ -819,6 +932,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 350">
@@ -839,6 +953,7 @@ TEMPERATURE</text>
     <width>60</width>
     <height>34</height>
     <precision>-2</precision>
+    <show_units>false</show_units>
     <rules>
       <rule name="Alarm" prop_id="background_color" out_exp="false">
         <exp bool_exp="pv0 &gt;= 350">
@@ -857,6 +972,10 @@ TEMPERATURE</text>
     <x>528</x>
     <y>92</y>
     <width>20</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_34</name>
@@ -864,6 +983,10 @@ TEMPERATURE</text>
     <x>528</x>
     <y>126</y>
     <width>20</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_35</name>
@@ -871,6 +994,10 @@ TEMPERATURE</text>
     <x>528</x>
     <y>156</y>
     <width>20</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_36</name>
@@ -878,6 +1005,10 @@ TEMPERATURE</text>
     <x>528</x>
     <y>186</y>
     <width>20</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_37</name>
@@ -885,6 +1016,10 @@ TEMPERATURE</text>
     <x>528</x>
     <y>216</y>
     <width>20</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_38</name>
@@ -892,6 +1027,10 @@ TEMPERATURE</text>
     <x>528</x>
     <y>246</y>
     <width>20</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_39</name>
@@ -901,7 +1040,7 @@ TEMPERATURE</text>
     <width>160</width>
     <height>30</height>
     <font>
-      <font family="Liberation Sans" style="REGULAR" size="18.0">
+      <font family="Times New Roman" style="REGULAR" size="18.0">
       </font>
     </font>
     <horizontal_alignment>1</horizontal_alignment>
@@ -913,6 +1052,10 @@ TEMPERATURE</text>
     <x>100</x>
     <y>360</y>
     <width>80</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -922,6 +1065,10 @@ TEMPERATURE</text>
     <x>210</x>
     <y>360</y>
     <width>70</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -930,12 +1077,14 @@ TEMPERATURE</text>
     <pv_name>flo_stagp:set:ts1_stagp</pv_name>
     <x>90</x>
     <y>380</y>
+    <show_units>false</show_units>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update_36</name>
     <pv_name>flo_stagp:set:ts1_dewpt</pv_name>
     <x>200</x>
     <y>380</y>
+    <show_units>false</show_units>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_42</name>
@@ -945,6 +1094,10 @@ East Door</text>
     <y>410</y>
     <width>90</width>
     <height>40</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -956,6 +1109,10 @@ West Door</text>
     <y>410</y>
     <width>80</width>
     <height>40</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -967,6 +1124,10 @@ Hatch Door</text>
     <y>410</y>
     <width>88</width>
     <height>40</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -994,6 +1155,10 @@ Hatch Door</text>
     <x>100</x>
     <y>450</y>
     <width>90</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -1003,6 +1168,7 @@ Hatch Door</text>
     <x>90</x>
     <y>470</y>
     <precision>-2</precision>
+    <show_units>false</show_units>
   </widget>
   <widget type="rectangle" version="2.0.0">
     <name>Rectangle_2</name>
@@ -1043,6 +1209,10 @@ Hatch Door</text>
     <y>450</y>
     <width>110</width>
     <height>40</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
   </widget>
@@ -1053,6 +1223,10 @@ Hatch Door</text>
     <x>430</x>
     <y>290</y>
     <width>170</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="rectangle" version="2.0.0">
@@ -1094,7 +1268,24 @@ Hatch Door</text>
     <y>450</y>
     <width>110</width>
     <height>40</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
     <horizontal_alignment>1</horizontal_alignment>
     <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="choice" version="2.0.0">
+    <name>Choice Button</name>
+    <x>90</x>
+    <y>236</y>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="18.0">
+      </font>
+    </font>
+    <items>
+      <item>Start</item>
+      <item>Stop</item>
+    </items>
   </widget>
 </display>
