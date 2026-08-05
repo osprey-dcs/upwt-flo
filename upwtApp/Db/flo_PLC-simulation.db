@@ -1,881 +1,582 @@
 record ( ai, "flo_PLC:cnfstat") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:ctrstat") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:ctwstat") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:ioaswblk") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:l1freq") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:l2freq") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:opstat") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:plc2ab") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:plcword0") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:shutdown") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:state") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:status") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:system01") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:system02") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ao, "flo_PLC:tun_cfg") {
     field ( DESC, "Tunnel mode sel by op & set by PLC" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:tun_err1") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( ai, "flo_PLC:tun_err2") {
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bi, "flo_PLC:wi01:B2_closed") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 9" )
 }
 
 record ( bi, "flo_PLC:wi01:B2_open") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 8" )
 }
 
 record ( bi, "flo_PLC:wi01:valveI_close") {
     field ( DESC, "Config valve I close limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 1" )
 }
 
 record ( bi, "flo_PLC:wi01:valveI_open") {
     field ( DESC, "Config valve I open limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 0" )
 }
 
 record ( bi, "flo_PLC:wi01:valveII_close") {
     field ( DESC, "Config valve II close limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 3" )
 }
 
 record ( bi, "flo_PLC:wi01:valveII_open") {
     field ( DESC, "Config valve II open limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 2" )
 }
 
 record ( bi, "flo_PLC:wi01:valveIV_close") {
     field ( DESC, "Config valve IV close limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 5" )
 }
 
 record ( bi, "flo_PLC:wi01:valveIV_open") {
     field ( DESC, "Config valve IV open limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 4" )
 }
 
 record ( bi, "flo_PLC:wi01:valveIX_close") {
     field ( DESC, "Config valve IX close limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 15" )
 }
 
 record ( bi, "flo_PLC:wi01:valveIX_open") {
     field ( DESC, "Config valve IX open limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 14" )
 }
 
 record ( bi, "flo_PLC:wi01:valveV_close") {
     field ( DESC, "Config valve V close limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 7" )
 }
 
 record ( bi, "flo_PLC:wi01:valveV_open") {
     field ( DESC, "Config valve V open limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 6" )
 }
 
 record ( bi, "flo_PLC:wi01:valveVII_close") {
     field ( DESC, "Config valve VII close limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 11" )
 }
 
 record ( bi, "flo_PLC:wi01:valveVII_open") {
     field ( DESC, "Config valve VII open limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 10" )
 }
 
 record ( bi, "flo_PLC:wi01:valveVIII_close") {
     field ( DESC, "Config valve VIII close limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 13" )
 }
 
 record ( bi, "flo_PLC:wi01:valveVIII_open") {
     field ( DESC, "Config valve VIII open limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[1] B 12" )
 }
 
 record ( bi, "flo_PLC:wi02:B3_open") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 15" )
 }
 
 record ( bi, "flo_PLC:wi02:cooler1_vac_off") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 12" )
 }
 
 record ( bi, "flo_PLC:wi02:cooler2_vac_off") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 13" )
 }
 
 record ( bi, "flo_PLC:wi02:V9_closed") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 14" )
 }
 
 record ( bi, "flo_PLC:wi02:valveX_close") {
     field ( DESC, "Config valve X close limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 1" )
 }
 
 record ( bi, "flo_PLC:wi02:valveX_open") {
     field ( DESC, "Config valve X open limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 0" )
 }
 
 record ( bi, "flo_PLC:wi02:valveXI_close") {
     field ( DESC, "Config valve XI close limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 3" )
 }
 
 record ( bi, "flo_PLC:wi02:valveXI_open") {
     field ( DESC, "Config valve XI open limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 2" )
 }
 
 record ( bi, "flo_PLC:wi02:valveXII_close") {
     field ( DESC, "Config valve XII close limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 5" )
 }
 
 record ( bi, "flo_PLC:wi02:valveXII_open") {
     field ( DESC, "Config valve XII open limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 4" )
 }
 
 record ( bi, "flo_PLC:wi02:valveXIII_close") {
     field ( DESC, "Config valve XIII close limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 7" )
 }
 
 record ( bi, "flo_PLC:wi02:valveXIII_open") {
     field ( DESC, "Config valve XIII open limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 6" )
 }
 
 record ( bi, "flo_PLC:wi02:valveXIV_close") {
     field ( DESC, "Config valve XIV close limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 9" )
 }
 
 record ( bi, "flo_PLC:wi02:valveXIV_open") {
     field ( DESC, "Config valve XIV open limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 8" )
 }
 
 record ( bi, "flo_PLC:wi02:valveXX_close") {
     field ( DESC, "Config valve XX close limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 11" )
 }
 
 record ( bi, "flo_PLC:wi02:valveXX_open") {
     field ( DESC, "Config valve XX open limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[2] B 10" )
 }
 
 record ( bi, "flo_PLC:wi03:B3_closed") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[3] B 0" )
 }
 
 record ( bi, "flo_PLC:wi03:emerg_prem") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[3] B 4" )
 }
 
 record ( bi, "flo_PLC:wi03:emerg_shutdn") {
     field ( DESC, "Emergency shutdown indicator" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[3] B 2" )
 }
 
 record ( bi, "flo_PLC:wi03:main_dr_shutdn") {
     field ( DESC, "Main drive shutdown indicator" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[3] B 3" )
 }
 
 record ( bi, "flo_PLC:wi03:main_vac_off") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[3] B 7" )
 }
 
 record ( bi, "flo_PLC:wi03:ts1_atmos") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[3] B 11" )
 }
 
 record ( bi, "flo_PLC:wi03:ts1_east_door") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[3] B 8" )
 }
 
 record ( bi, "flo_PLC:wi03:ts1_hatch_door") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[3] B 10" )
 }
 
 record ( bi, "flo_PLC:wi03:ts1_vac_off") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[3] B 5" )
 }
 
 record ( bi, "flo_PLC:wi03:ts1_west_door") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[3] B 9" )
 }
 
 record ( bi, "flo_PLC:wi03:ts2_east_door") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[3] B 14" )
 }
 
 record ( bi, "flo_PLC:wi03:ts2_vac_off") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[3] B 6" )
 }
 
 record ( bi, "flo_PLC:wi03:ts2_west_door") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[3] B 15" )
 }
 
 record ( bi, "flo_PLC:wi03:v25_clos_chm") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[3] B 12" )
 }
 
 record ( bi, "flo_PLC:wi04:ps125hi") {
     field ( DESC, "Test Section 1 high pressure indicator" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[4] B 4" )
 }
 
 record ( bi, "flo_PLC:wi04:ps125low") {
     field ( DESC, "Test Section 1 low pressure indicator" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[4] B 5" )
 }
 
 record ( bi, "flo_PLC:wi04:ps126hi") {
     field ( DESC, "Test Section 2 high pressure indicator" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[4] B 6" )
 }
 
 record ( bi, "flo_PLC:wi04:ps126low") {
     field ( DESC, "Test Section 2 low pressure indicator" )
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[4] B 7" )
 }
 
 record ( bi, "flo_PLC:wi04:ts1_vlv_close") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[4] B 3" )
 }
 
 record ( bi, "flo_PLC:wi04:ts2_atmos") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[4] B 1" )
 }
 
 record ( bi, "flo_PLC:wi04:ts2_hatch_door") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[4] B 0" )
 }
 
 record ( bi, "flo_PLC:wi04:v26_clos_chm") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[4] B 2" )
 }
 
 record ( bi, "flo_PLC:wi05:B4_closed") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[5] B 1" )
 }
 
 record ( bi, "flo_PLC:wi05:B4_open") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[5] B 0" )
 }
 
 record ( bi, "flo_PLC:wi05:B5_closed") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[5] B 3" )
 }
 
 record ( bi, "flo_PLC:wi05:B5_open") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[5] B 2" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_1") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 0" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_10") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 4" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_100") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 8" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_1k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 12" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_2") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 1" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_20") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 5" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_200") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 9" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_2k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 13" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_4") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 2" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_40") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 6" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_400") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 10" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_4k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 14" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_8") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 3" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_80") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 7" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_800") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 11" )
 }
 
 record ( bi, "flo_PLC:wi06:ts1_stagp_8k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[6] B 15" )
 }
 
 record ( bi, "flo_PLC:wi07:ts1_stagp_100k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[7] B 4" )
 }
 
 record ( bi, "flo_PLC:wi07:ts1_stagp_10k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[7] B 0" )
 }
 
 record ( bi, "flo_PLC:wi07:ts1_stagp_20k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[7] B 1" )
 }
 
 record ( bi, "flo_PLC:wi07:ts1_stagp_40k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[7] B 2" )
 }
 
 record ( bi, "flo_PLC:wi07:ts1_stagp_80k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[7] B 3" )
 }
 
 record ( bi, "flo_PLC:wi07:ts1_stagp_CDA") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[7] B 6" )
 }
 
 record ( bi, "flo_PLC:wi07:ts1_stagp_err") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[7] B 5" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_1") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 0" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_10") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 4" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_100") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 8" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_1k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 12" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_2") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 1" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_20") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 5" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_200") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 9" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_2k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 13" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_4") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 2" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_40") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 6" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_400") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 10" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_4k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 14" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_8") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 3" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_80") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 7" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_800") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 11" )
 }
 
 record ( bi, "flo_PLC:wi08:ts2_stagp_8k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[8] B 15" )
 }
 
 record ( bi, "flo_PLC:wi09:ts2_stagp_100k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[9] B 4" )
 }
 
 record ( bi, "flo_PLC:wi09:ts2_stagp_10k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[9] B 0" )
 }
 
 record ( bi, "flo_PLC:wi09:ts2_stagp_20k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[9] B 1" )
 }
 
 record ( bi, "flo_PLC:wi09:ts2_stagp_40k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[9] B 2" )
 }
 
 record ( bi, "flo_PLC:wi09:ts2_stagp_80k") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[9] B 3" )
 }
 
 record ( bi, "flo_PLC:wi09:ts2_stagp_CDA") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[9] B 6" )
 }
 
 record ( bi, "flo_PLC:wi09:ts2_stagp_err") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[9] B 5" )
 }
 
 record ( bi, "flo_PLC:wi12:B1_closed") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[10] B 1" )
 }
 
 record ( bi, "flo_PLC:wi12:B1_open") {
-    field ( DTYP, "EtherIP" )
-    field ( INP, "$(PLC) N10[10] B 2" )
 }
 
 record ( bo, "flo_PLC:wo01:sv101_open") {
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[1] B 0" )
 }
 
 record ( bo, "flo_PLC:wo01:sv102_open") {
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[1] B 1" )
 }
 
 record ( bo, "flo_PLC:wo01:sv103_open") {
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[1] B 2" )
 }
 
 record ( bo, "flo_PLC:wo01:sv104_open") {
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[1] B 3" )
 }
 
 record ( bo, "flo_PLC:wo02:hyd_on") {
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[2] B 0" )
 }
 
 record ( bo, "flo_PLC:wo02:hyd_start") {
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[2] B 1" )
 }
 
 record ( bo, "flo_PLC:wo02:hyd_stop") {
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[2] B 2" )
 }
 
 record ( bo, "flo_PLC:wo02:temp_alarm") {
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[2] B 3" )
 }
 
 record ( bo, "flo_PLC:wo03:dewpt_in_lim") {
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[3] B 2" )
 }
 
 record ( bo, "flo_PLC:wo03:inbleed_select") {
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[3] B 0" )
 }
 
 record ( bo, "flo_PLC:wo03:press_in_lim") {
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[3] B 1" )
 }
 
 record ( bo, "flo_PLC:wo06:valveI_close") {
     field ( DESC, "Config valve I close limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo06:valveI_open") {
     field ( DESC, "Config valve I open limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo06:valveII_close") {
     field ( DESC, "Config valve II close limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo06:valveII_open") {
     field ( DESC, "Config valve II open limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo06:valveIV_close") {
     field ( DESC, "Config valve IV close limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo06:valveIV_open") {
     field ( DESC, "Config valve IV open limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo06:valveV_close") {
     field ( DESC, "Config valve V close limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo06:valveV_open") {
     field ( DESC, "Config valve V open limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo06:valveVII_close") {
     field ( DESC, "Config valve VII close limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo06:valveVII_open") {
     field ( DESC, "Config valve VII open limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo06:valveVIII_close") {
     field ( DESC, "Config valve VIII close limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo06:valveVIII_open") {
     field ( DESC, "Config valve VIII open limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo07:bypassB1_close") {
     field ( DESC, "Config valve B1 close limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[7] B 15" )
 }
 
 record ( bo, "flo_PLC:wo07:bypassB1_open") {
     field ( DESC, "Config valve B1 open limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[7] B 14" )
 }
 
 record ( bo, "flo_PLC:wo07:valveIX_close") {
     field ( DESC, "Config valve IX close limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo07:valveIX_open") {
     field ( DESC, "Config valve IX open limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo07:valveX_close") {
     field ( DESC, "Config valve X close limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo07:valveX_open") {
     field ( DESC, "Config valve X open limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo07:valveXI_close") {
     field ( DESC, "Config valve XI close limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo07:valveXI_open") {
     field ( DESC, "Config valve XI open limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo07:valveXII_close") {
     field ( DESC, "Config valve XII close limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo07:valveXII_open") {
     field ( DESC, "Config valve XII open limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo07:valveXIII_close") {
     field ( DESC, "Config valve XIII close limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo07:valveXIII_open") {
     field ( DESC, "Config valve XIII open limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo07:valveXIV_close") {
     field ( DESC, "Config valve XIV close limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo07:valveXIV_open") {
     field ( DESC, "Config valve XIV open limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo07:valveXX_close") {
     field ( DESC, "Config valve XX close limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo07:valveXX_open") {
     field ( DESC, "Config valve XX open limit switch" )
-    field ( DTYP, "EtherIP" )
 }
 
 record ( bo, "flo_PLC:wo08:bypassB2_close") {
     field ( DESC, "Config valve B2 close  limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[8] B 1" )
 }
 
 record ( bo, "flo_PLC:wo08:bypassB2_open") {
     field ( DESC, "Config valve B2 open  limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[8] B 0" )
 }
 
 record ( bo, "flo_PLC:wo08:bypassB3_close") {
     field ( DESC, "Config valve B3 close  limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[8] B 3" )
 }
 
 record ( bo, "flo_PLC:wo08:bypassB3_open") {
     field ( DESC, "Config valve B3 open  limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[8] B 2" )
 }
 
 record ( bo, "flo_PLC:wo08:bypassB4_close") {
     field ( DESC, "Config valve B4 close  limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[8] B 5" )
 }
 
 record ( bo, "flo_PLC:wo08:bypassB4_open") {
     field ( DESC, "Config valve B4 open  limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[8] B 4" )
 }
 
 record ( bo, "flo_PLC:wo08:bypassB5_close") {
     field ( DESC, "Config valve B5 close  limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[8] B 7" )
 }
 
 record ( bo, "flo_PLC:wo08:bypassB5_open") {
     field ( DESC, "Config valve B5 open  limit switch" )
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[8] B 6" )
 }
 
 record ( bo, "flo_PLC:wo08:watchdog_timer") {
-    field ( DTYP, "EtherIP" )
-    field ( OUT, "$(PLC) N11[8] B 8" )
 }
 

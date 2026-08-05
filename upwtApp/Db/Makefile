@@ -17,8 +17,9 @@ DB += flo_PLC.db
 DB += flo_stagp.db
 DB += flo_temp.db
 DB += flo_wdmon.db
-DB += sim.db
+DB += tunnel_logic.db
 
+DB += flo_PLC-simulation.db
 
 
 #----------------------------------------------------

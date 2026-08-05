@@ -16,10 +16,10 @@ DBD += upwt.dbd
 upwt_DBD += base.dbd
 
 # Include dbd files from all support applications:
-upwt_DBD += etherIP.dbd
+upwt_DBD += ether_ip.dbd
 
 # Add all the support libraries needed by this IOC
-upwt_LIBS += etherIP
+upwt_LIBS += ether_ip
 
 # upwt_registerRecordDeviceDriver.cpp derives from upwt.dbd
 upwt_SRCS += upwt_registerRecordDeviceDriver.cpp

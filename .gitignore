@@ -32,3 +32,4 @@ O.*/
 .DS_Store
 
 upwtApp/Db/*.csv
+upwtApp/Db/dbGenLogs/
