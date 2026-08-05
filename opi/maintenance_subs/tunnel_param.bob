@@ -1464,6 +1464,10 @@ P</text>
     <pv_name>dewpt_mode</pv_name>
     <x>10</x>
     <y>630</y>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="14.0">
+      </font>
+    </font>
     <items>
       <item>AUTO</item>
       <item>MANUAL</item>
@@ -1485,6 +1489,10 @@ Setpoint</text>
     <y>561</y>
     <width>82</width>
     <height>49</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="14.0">
+      </font>
+    </font>
     <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
@@ -1501,6 +1509,10 @@ Setpoint</text>
     <x>168</x>
     <y>620</y>
     <width>72</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="14.0">
+      </font>
+    </font>
     <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
@@ -1517,6 +1529,10 @@ Setpoint</text>
     <x>250</x>
     <y>620</y>
     <width>72</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="14.0">
+      </font>
+    </font>
     <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="label" version="2.0.0">
@@ -1708,6 +1724,10 @@ Setpoint</text>
     <y>561</y>
     <width>82</width>
     <height>49</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="14.0">
+      </font>
+    </font>
     <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
@@ -1724,6 +1744,10 @@ Setpoint</text>
     <x>480</x>
     <y>620</y>
     <width>72</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="14.0">
+      </font>
+    </font>
     <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
@@ -1740,6 +1764,10 @@ Setpoint</text>
     <x>562</x>
     <y>620</y>
     <width>72</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="14.0">
+      </font>
+    </font>
     <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="radio" version="2.0.0">
@@ -1747,6 +1775,10 @@ Setpoint</text>
     <pv_name>flo_stagp:set:opr_mode</pv_name>
     <x>332</x>
     <y>630</y>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="14.0">
+      </font>
+    </font>
     <items>
       <item>AUTO</item>
       <item>MANUAL</item>
@@ -1942,6 +1974,10 @@ Setpoint</text>
     <y>561</y>
     <width>82</width>
     <height>49</height>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="14.0">
+      </font>
+    </font>
     <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
@@ -1958,6 +1994,10 @@ Setpoint</text>
     <x>792</x>
     <y>620</y>
     <width>72</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="14.0">
+      </font>
+    </font>
     <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
@@ -1974,6 +2014,10 @@ Setpoint</text>
     <x>874</x>
     <y>620</y>
     <width>72</width>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="14.0">
+      </font>
+    </font>
     <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="radio" version="2.0.0">
@@ -1981,6 +2025,10 @@ Setpoint</text>
     <pv_name>flo_temp:set:opr_mode</pv_name>
     <x>644</x>
     <y>630</y>
+    <font>
+      <font family="Times New Roman" style="REGULAR" size="14.0">
+      </font>
+    </font>
     <items>
       <item>AUTO</item>
       <item>MANUAL</item>
